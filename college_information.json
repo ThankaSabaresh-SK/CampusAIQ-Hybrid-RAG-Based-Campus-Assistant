@@ -1,0 +1,94 @@
+{
+  "college": "GenZ Institute of Science and Technology",
+  "dataset_type": "College Information",
+  "college_information": {
+    "college_id": "GIST-INFO-001",
+    "official_full_name": "GenZ Institute of Science and Technology",
+    "short_name": "GIST",
+    "about": {
+      "short_introduction": "GenZ Institute of Science and Technology (GIST) is a modern higher-education institution focused on providing quality education in engineering, technology, science, and management.",
+      "what_the_college_is": "GIST is an institution dedicated to developing students through academic learning, practical training, innovation, research, and industry-oriented education.",
+      "main_academic_focus": "The college primarily focuses on engineering, computer science, artificial intelligence, information technology, electronics, emerging technologies, and other science and technology disciplines."
+    },
+    "history": {
+      "established_year": 2012,
+      "milestones": [
+        {
+          "year": 2012,
+          "event": "GenZ Institute of Science and Technology was established."
+        },
+        {
+          "year": 2015,
+          "event": "New engineering and technology programs were introduced."
+        },
+        {
+          "year": 2018,
+          "event": "Advanced computer and technology laboratories were developed."
+        },
+        {
+          "year": 2021,
+          "event": "Industry-oriented training and innovation programs were expanded."
+        },
+        {
+          "year": 2024,
+          "event": "New digital learning and student-support initiatives were introduced."
+        }
+      ],
+      "major_developments": "GIST has progressively expanded its academic programs, laboratories, digital learning facilities, industry collaboration, student activities, and research initiatives."
+    },
+    "vision": "To become a leading institution in science and technology by nurturing innovative, skilled, ethical, and socially responsible professionals.",
+    "mission": "To provide quality education through innovative teaching, practical learning, research, industry collaboration, and holistic student development.",
+    "location": {
+      "full_address": "chennai, Tamilnadu",
+      "city": "Chennai",
+      "pin_code": null
+    },
+    "institution_type": "Deemed-to-be University",
+    "recognition_and_accreditation": {
+      "ugc_aicte_status": null,
+      "naac": null,
+      "nba": null,
+      "other_recognitions": null
+    },
+    "schools_academic_divisions": [
+      "School of Computing",
+      "School of Electronics & Communication",
+      "School of Mechanical Engineering",
+      "School of Civil Engineering",
+      "School of Management",
+      "School of Science & Humanities",
+      "School of Design & Innovation",
+      "School of Emerging Technologies",
+      "School of Psychology"
+    ],
+    "campus_information": {
+      "campus_description": "GIST has a modern and student-friendly campus designed to support academic learning, practical education, innovation, and student activities.",
+      "major_campus_areas": [
+        "Academic buildings",
+        "Classrooms",
+        "Laboratories",
+        "Library",
+        "Administrative offices",
+        "Seminar and conference halls",
+        "Sports areas",
+        "Student activity spaces",
+        "Cafeteria",
+        "Transportation facilities"
+      ]
+    },
+    "leadership": {
+      "chancellor_president": "As the college is a user-created institution for this project, no Chancellor's name has been assigned.",
+      "vice_chancellor": "As the college is a user-created institution for this project, no Vice-Chancellor's name has been assigned.",
+      "registrar": "As the college is a user-created institution for this project, no Registrar's name has been assigned.",
+      "director": "As the college is a user-created institution for this project, no Director's name has been assigned."
+    },
+    "general_academic_information": {
+      "academic_year": "The academic year is divided into two semesters.",
+      "semester_structure": "Each semester includes regular classes, assessments, examinations, and academic activities.",
+      "college_working_days": "Classes and academic activities are conducted on scheduled working days.",
+      "general_college_hours": "9:00 AM – 3:00 PM",
+      "working_week": "Monday to Saturday, subject to the academic calendar.",
+      "academic_calendar": "Semester dates, examinations, holidays, and other academic activities are published through the official academic calendar."
+    }
+  }
+}

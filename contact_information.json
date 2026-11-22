@@ -1,0 +1,406 @@
+{
+  "college": "GenZ Institute of Science and Technology",
+  "dataset_type": "Contact Information",
+  "conversation_metadata": {
+    "about_assistant": {
+      "keywords": [
+        "who are you",
+        "what are you",
+        "tell me about yourself",
+        "about yourself",
+        "introduce yourself",
+        "what can you do",
+        "what do you do"
+      ],
+      "response": "Hello! 👋 I'm your AI Assistant. 🤖 I can help you with college-related information, including academics and other student services. How can I help you today?"
+    },
+    "how_are_you": {
+      "keywords": [
+        "how are you",
+        "how are you doing",
+        "are you fine",
+        "are you okay"
+      ],
+      "response": "I'm doing great! 😊 Thanks for asking. I'm here and ready to help with your college-related questions."
+    },
+    "thanks": {
+      "keywords": [
+        "thanks",
+        "thank you",
+        "thank u",
+        "thanks a lot",
+        "thank you so much"
+      ],
+      "response": "You're welcome! 😊 I'm happy to help. Feel free to ask me anything about the college."
+    },
+    "goodbye": {
+      "keywords": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "good night"
+      ],
+      "response": "Goodbye! 👋 Have a great day. Feel free to come back whenever you need help."
+    },
+    "what_can_you_ask": {
+      "keywords": [
+        "what can you answer",
+        "what can i ask",
+        "what questions can i ask",
+        "what can you help me with",
+        "what information can you provide",
+        "what questions can you answer"
+      ],
+      "response": "I can help with college-related information. 😊 You can ask questions like: Which subjects are taught in semesters? What subjects are included in this program? What is covered in the first year? What academic programs are offered? Tell about yourself?"
+    },
+    "contact_response": {
+      "response": "Sure! 😊 I'd be happy to help. The official contact details are not available in the chatbot yet. Please contact the college office for the latest information."
+    }
+  },
+  "portal_navigation": {
+    "general_navigation": {
+      "keywords": [
+        "where can i check this",
+        "where can i find this",
+        "how can i check this",
+        "where is this",
+        "how do i access this",
+        "where can i see this",
+        "how can i see this",
+        "where is the option",
+        "where can i find the option",
+        "how do i find the option"
+      ],
+      "response": "Sure! 😊 You can find the required option in your student portal. Please scroll through your dashboard/Profile section and select the relevant option to view the details."
+    },
+    "information": {
+      "keywords": [
+        "where can i check information",
+        "how to check information",
+        "where is information",
+        "information section"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Information** to view the available details."
+    },
+    "hourly_attendance": {
+      "keywords": [
+        "where can i check hourly attendance",
+        "how to check hourly attendance",
+        "where is hourly attendance",
+        "how can i see hourly attendance"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Hourly Attendance** to view your hourly attendance details."
+    },
+    "daily_attendance": {
+      "keywords": [
+        "where can i check daily attendance",
+        "how to check daily attendance",
+        "where is daily attendance",
+        "how can i see daily attendance"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Daily Attendance** to view your daily attendance details."
+    },
+    "attendance": {
+      "keywords": [
+        "where can i check attendance",
+        "how can i check attendance",
+        "where is my attendance",
+        "how can i see my attendance",
+        "how to check attendance"
+      ],
+      "response": "Sure! 😊 You can check your attendance in the student portal. Please scroll through your dashboard/Profile section and select **Hourly Attendance** or **Daily Attendance**, depending on the attendance details you want to view."
+    },
+    "hostel_fees": {
+      "keywords": [
+        "where can i check hostel fees",
+        "how to check hostel fees",
+        "where is hostel fees",
+        "how can i see hostel fees"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Hostel Fees** to view your hostel fee details."
+    },
+    "tuition_fees": {
+      "keywords": [
+        "where can i check tuition fees",
+        "how to check tuition fees",
+        "where is tuition fees",
+        "how can i see tuition fees"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Tuition Fees** to view your tuition fee details."
+    },
+    "placement_fees": {
+      "keywords": [
+        "where can i check placement fees",
+        "how to check placement fees",
+        "where is placement fees"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Placement Fees** to view the placement fee details."
+    },
+    "arrear_fees": {
+      "keywords": [
+        "where can i check arrear fees",
+        "how to check arrear fees",
+        "where is arrear fees"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Arrear Fees** to view the arrear fee details."
+    },
+    "revaluation_fees": {
+      "keywords": [
+        "where can i check revaluation fees",
+        "how to check revaluation fees",
+        "where is revaluation fees"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Revaluation Fees** to view the revaluation fee details."
+    },
+    "semester_result": {
+      "keywords": [
+        "where can i check semester result",
+        "how to check semester result",
+        "where is semester result",
+        "how can i see my semester result",
+        "where can i see my result"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Semester Result** to view your semester results."
+    },
+    "cae_result": {
+      "keywords": [
+        "where can i check cae result",
+        "how to check cae result",
+        "where is my cae result",
+        "how can i see cae result"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **My CAE Result** to view your CAE results."
+    },
+    "lms": {
+      "keywords": [
+        "where can i access lms",
+        "how to access lms",
+        "where is lms",
+        "how can i open lms"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **LMS** to access the Learning Management System."
+    },
+    "learning": {
+      "keywords": [
+        "where can i check learning",
+        "how to access learning",
+        "where is learning",
+        "how can i access learning"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Learning** to access your learning resources."
+    },
+    "library": {
+      "keywords": [
+        "where can i access library",
+        "how to access library",
+        "where is library",
+        "how can i open library"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Library** to access the library section."
+    },
+    "achievements": {
+      "keywords": [
+        "where can i check achievements",
+        "how to check achievements",
+        "where is achievements",
+        "how can i see my achievements"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Achievements** to view your achievements."
+    },
+    "additional_skill_sets": {
+      "keywords": [
+        "where can i check additional skill sets",
+        "how to check additional skill sets",
+        "where is additional skill sets",
+        "how can i see skill sets"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Additional Skill Sets** to view your skill-set details."
+    },
+    "feedback_and_suggestion": {
+      "keywords": [
+        "where can i give feedback and suggestion",
+        "how to give feedback and suggestion",
+        "where is feedback and suggestion",
+        "where can i submit suggestion"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Feedback and Suggestion** to submit your feedback or suggestions."
+    },
+    "feedback": {
+      "keywords": [
+        "where can i give feedback",
+        "how to give feedback",
+        "where is feedback",
+        "how can i submit feedback"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Feedback** to submit your feedback."
+    },
+    "grievance": {
+      "keywords": [
+        "where can i submit grievance",
+        "how to submit grievance",
+        "where is my grievance",
+        "how can i raise grievance",
+        "where can i raise complaint"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **My Grievance** to submit or check your grievance."
+    },
+    "time_table": {
+      "keywords": [
+        "where can i check timetable",
+        "how to check timetable",
+        "where is timetable",
+        "how can i see my timetable",
+        "where can i see timetable"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Time Table** to view your class timetable."
+    },
+    "transport": {
+      "keywords": [
+        "where can i check transport",
+        "how to check transport",
+        "where is transport",
+        "how can i see transport details"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Transport** to view the available transport details."
+    },
+    "internship_certificate": {
+      "keywords": [
+        "where can i get internship certificate",
+        "how to get internship certificate",
+        "where is internship certificate",
+        "how can i download internship certificate"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Internship Certificate** to access your internship certificate."
+    },
+    "survey": {
+      "keywords": [
+        "where can i complete survey",
+        "how to complete survey",
+        "where is survey",
+        "how can i access survey"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Survey** to access and complete the survey."
+    },
+    "hall_ticket": {
+      "keywords": [
+        "where can i download hall ticket",
+        "how to download hall ticket",
+        "where is hall ticket",
+        "how can i get hall ticket"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Download Hall Ticket** to download your hall ticket."
+    },
+    "mess_menu": {
+      "keywords": [
+        "where can i check mess menu",
+        "how to check mess menu",
+        "where is mess menu",
+        "how can i see mess menu"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Mess Menu** to view the mess menu."
+    },
+    "event_calendar": {
+      "keywords": [
+        "where can i check event calendar",
+        "how to check event calendar",
+        "where is event calendar",
+        "how can i see college events"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Event Calendar** to view upcoming college events."
+    },
+    "cbcs": {
+      "keywords": [
+        "where can i check cbcs",
+        "how to check cbcs",
+        "where is cbcs",
+        "how can i access cbcs"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **CBCS** to access the CBCS section."
+    },
+    "elective": {
+      "keywords": [
+        "where can i select elective",
+        "how to select elective",
+        "where is elective",
+        "how can i access elective"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Elective** to access the elective section."
+    },
+    "syllabus": {
+      "keywords": [
+        "where can i check syllabus",
+        "how to check syllabus",
+        "where is syllabus",
+        "how can i see syllabus"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Syllabus** to view the syllabus."
+    },
+    "course_completion_certificate": {
+      "keywords": [
+        "where can i get course completion certificate",
+        "how to get course completion certificate",
+        "where is course completion certificate",
+        "how can i download course completion certificate"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Course Completion Certificate** to access your certificate."
+    },
+    "seating_arrangement": {
+      "keywords": [
+        "where can i check seating arrangement",
+        "how to check seating arrangement",
+        "where is seating arrangement",
+        "where is ese seating arrangement",
+        "how can i see my exam seating arrangement"
+      ],
+      "response": "Sure! 😊 Please scroll through your student portal/Profile section and select **Seating Arrangement ESE Examination** to view your examination seating arrangement."
+    }
+  },
+  "contact_information": {
+    "contact_id": "GIST-CONTACT-001",
+    "data_status_note": "Official contact details (phone numbers, emails, website) have not yet been published for this institution. All contact fields are currently unavailable; no placeholder contact values are used.",
+    "general_contact": {
+      "email": "Not mentioned",
+      "phone": "Not mentioned",
+      "address": "Not mentioned",
+      "official_website": "Not mentioned"
+    },
+    "admission_contact": {
+      "phone": "Not mentioned",
+      "email": "Not mentioned"
+    },
+    "student_support_contact": {
+      "phone": "Not mentioned",
+      "email": "Not mentioned"
+    },
+    "placement_contact": {
+      "phone": "Not mentioned",
+      "email": "Not mentioned"
+    },
+    "transport_contact": {
+      "phone": "Not mentioned",
+      "email": "Not mentioned"
+    },
+    "hostel_contact": {
+      "phone": "Not mentioned",
+      "email": "Not mentioned"
+    }
+  },
+  "referral_messages": [
+    {
+      "query_id": "GIST-CONTACT-REF-001",
+      "query_type": "Admissions",
+      "message": "For admission-related information, please contact the college admission office directly."
+    },
+    {
+      "query_id": "GIST-CONTACT-REF-002",
+      "query_type": "Fees",
+      "message": "Official fee details are not provided in this chatbot. Please contact the college office for the latest information."
+    },
+    {
+      "query_id": "GIST-CONTACT-REF-005",
+      "query_type": "Student Services",
+      "message": "For student portal, attendance, or academic record queries, please contact the college office directly."
+    }
+  ]
+}

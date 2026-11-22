@@ -1,0 +1,1950 @@
+{
+  "college": "GenZ Institute of Science and Technology",
+  "dataset_type": "Programs",
+  "schools": [
+    {
+      "school_name": "School of Computing",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-001",
+          "school": "School of Computing",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Computer Science & Engineering",
+          "short_name": "BTech-CSE",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Computer Science and Engineering",
+          "description": "The B.Tech Computer Science & Engineering program under the School of Computing offers undergraduate education in computer science and engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech CSE",
+            "BTech CSE",
+            "Computer Science",
+            "Computer Science and Engineering",
+            "CSE",
+            "Computer Engineering",
+            "Engineering"
+          ],
+          "search_text": "School of Computing. UG undergraduate program. Degree: B.Tech. Program: B.Tech Computer Science & Engineering."
+        },
+        {
+          "program_id": "GIST-UG-002",
+          "school": "School of Computing",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Artificial Intelligence & Machine Learning",
+          "short_name": "BTech-AIML",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Artificial Intelligence and Machine Learning",
+          "description": "The B.Tech Artificial Intelligence & Machine Learning program under the School of Computing offers undergraduate education in artificial intelligence and machine learning, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech AIML",
+            "BTech AIML",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "AI",
+            "ML",
+            "AIML"
+          ],
+          "search_text": "School of Computing. UG undergraduate program. Degree: B.Tech. Program: B.Tech Artificial Intelligence & Machine Learning."
+        },
+        {
+          "program_id": "GIST-UG-003",
+          "school": "School of Computing",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Information Technology",
+          "short_name": "BTech-IT",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Information Technology",
+          "description": "The B.Tech Information Technology program under the School of Computing offers undergraduate education in information technology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech IT",
+            "BTech IT",
+            "Information Technology",
+            "IT",
+            "Technology",
+            "Computer Technology"
+          ],
+          "search_text": "School of Computing. UG undergraduate program. Degree: B.Tech. Program: B.Tech Information Technology."
+        },
+        {
+          "program_id": "GIST-UG-004",
+          "school": "School of Computing",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Data Science",
+          "short_name": "BTech-DS",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Data Science",
+          "description": "The B.Tech Data Science program under the School of Computing offers undergraduate education in data science, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Data Science",
+            "BTech DS",
+            "Data Science",
+            "Data Analytics",
+            "DS",
+            "Big Data"
+          ],
+          "search_text": "School of Computing. UG undergraduate program. Degree: B.Tech. Program: B.Tech Data Science."
+        },
+        {
+          "program_id": "GIST-UG-005",
+          "school": "School of Computing",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Cyber Security",
+          "short_name": "BTech-CyberSecurity",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Cyber Security",
+          "description": "The B.Tech Cyber Security program under the School of Computing offers undergraduate education in cyber security, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Cyber Security",
+            "BTech Cyber Security",
+            "Cyber Security",
+            "Cybersecurity",
+            "Information Security",
+            "Network Security"
+          ],
+          "search_text": "School of Computing. UG undergraduate program. Degree: B.Tech. Program: B.Tech Cyber Security."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-001",
+          "school": "School of Computing",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Computer Science & Engineering",
+          "short_name": "MTech-CSE",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Computer Science and Engineering",
+          "description": "The M.Tech Computer Science & Engineering program under the School of Computing is a postgraduate program offering advanced study and specialization in computer science and engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech CSE",
+            "MTech CSE",
+            "Computer Science",
+            "Computer Science and Engineering",
+            "CSE",
+            "Computer Engineering",
+            "Postgraduate Engineering"
+          ],
+          "search_text": "School of Computing. PG postgraduate program. Degree: M.Tech. Program: M.Tech Computer Science & Engineering."
+        },
+        {
+          "program_id": "GIST-PG-002",
+          "school": "School of Computing",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Artificial Intelligence & Machine Learning",
+          "short_name": "MTech-AIML",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Artificial Intelligence and Machine Learning",
+          "description": "The M.Tech Artificial Intelligence & Machine Learning program under the School of Computing is a postgraduate program offering advanced study and specialization in artificial intelligence and machine learning, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech AIML",
+            "MTech AIML",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "AI",
+            "ML",
+            "AIML"
+          ],
+          "search_text": "School of Computing. PG postgraduate program. Degree: M.Tech. Program: M.Tech Artificial Intelligence & Machine Learning."
+        },
+        {
+          "program_id": "GIST-PG-003",
+          "school": "School of Computing",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Data Science",
+          "short_name": "MTech-DataScience",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Data Science",
+          "description": "The M.Tech Data Science program under the School of Computing is a postgraduate program offering advanced study and specialization in data science, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Data Science",
+            "MTech Data Science",
+            "Data Science",
+            "Data Analytics",
+            "Big Data",
+            "DS"
+          ],
+          "search_text": "School of Computing. PG postgraduate program. Degree: M.Tech. Program: M.Tech Data Science."
+        },
+        {
+          "program_id": "GIST-PG-004",
+          "school": "School of Computing",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Cyber Security",
+          "short_name": "MTech-CyberSecurity",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Cyber Security",
+          "description": "The M.Tech Cyber Security program under the School of Computing is a postgraduate program offering advanced study and specialization in cyber security, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Cyber Security",
+            "MTech Cyber Security",
+            "Cyber Security",
+            "Cybersecurity",
+            "Information Security",
+            "Network Security"
+          ],
+          "search_text": "School of Computing. PG postgraduate program. Degree: M.Tech. Program: M.Tech Cyber Security."
+        },
+        {
+          "program_id": "GIST-PG-005",
+          "school": "School of Computing",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Software Engineering",
+          "short_name": "MTech-SoftwareEngineering",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Software Engineering",
+          "description": "The M.Tech Software Engineering program under the School of Computing is a postgraduate program offering advanced study and specialization in software engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Software Engineering",
+            "MTech Software Engineering",
+            "Software Engineering",
+            "Software Development",
+            "Programming",
+            "SE"
+          ],
+          "search_text": "School of Computing. PG postgraduate program. Degree: M.Tech. Program: M.Tech Software Engineering."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Electronics & Communication",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-015",
+          "school": "School of Electronics & Communication",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Electronics & Communication Engineering",
+          "short_name": "BTech-ECE",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Electronics and Communication Engineering",
+          "description": "The B.Tech Electronics & Communication Engineering program under the School of Electronics & Communication offers undergraduate education in electronics and communication engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech ECE",
+            "BTech ECE",
+            "Electronics and Communication Engineering",
+            "Electronics",
+            "Communication Engineering",
+            "ECE"
+          ],
+          "search_text": "School of Electronics & Communication. UG undergraduate program. Degree: B.Tech. Program: B.Tech Electronics & Communication Engineering."
+        },
+        {
+          "program_id": "GIST-UG-016",
+          "school": "School of Electronics & Communication",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Electronics & Instrumentation Engineering",
+          "short_name": "BTech-EIE",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Electronics and Instrumentation Engineering",
+          "description": "The B.Tech Electronics & Instrumentation Engineering program under the School of Electronics & Communication offers undergraduate education in electronics and instrumentation engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech EIE",
+            "BTech EIE",
+            "Electronics and Instrumentation",
+            "Instrumentation Engineering",
+            "Electronics",
+            "EIE"
+          ],
+          "search_text": "School of Electronics & Communication. UG undergraduate program. Degree: B.Tech. Program: B.Tech Electronics & Instrumentation Engineering."
+        },
+        {
+          "program_id": "GIST-UG-017",
+          "school": "School of Electronics & Communication",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Electrical & Electronics Engineering",
+          "short_name": "BTech-EEE",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Electrical and Electronics Engineering",
+          "description": "The B.Tech Electrical & Electronics Engineering program under the School of Electronics & Communication offers undergraduate education in electrical and electronics engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech EEE",
+            "BTech EEE",
+            "Electrical and Electronics Engineering",
+            "Electrical Engineering",
+            "Electronics Engineering",
+            "EEE"
+          ],
+          "search_text": "School of Electronics & Communication. UG undergraduate program. Degree: B.Tech. Program: B.Tech Electrical & Electronics Engineering."
+        },
+        {
+          "program_id": "GIST-UG-018",
+          "school": "School of Electronics & Communication",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech VLSI Design & Technology",
+          "short_name": "BTech-VDT",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of VLSI Design and Technology",
+          "description": "The B.Tech VLSI Design & Technology program under the School of Electronics & Communication offers undergraduate education in VLSI design and technology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech VLSI",
+            "BTech VLSI",
+            "VLSI Design",
+            "VLSI Design and Technology",
+            "Semiconductor",
+            "Chip Design"
+          ],
+          "search_text": "School of Electronics & Communication. UG undergraduate program. Degree: B.Tech. Program: B.Tech VLSI Design & Technology."
+        },
+        {
+          "program_id": "GIST-UG-019",
+          "school": "School of Electronics & Communication",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Communication Systems Engineering",
+          "short_name": "BTech-CommunicationSystems",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Communication Systems Engineering",
+          "description": "The B.Tech Communication Systems Engineering program under the School of Electronics & Communication offers undergraduate education in communication systems engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Communication Systems",
+            "BTech Communication Systems",
+            "Communication Systems Engineering",
+            "Communication Engineering",
+            "Telecommunication",
+            "Communication Systems"
+          ],
+          "search_text": "School of Electronics & Communication. UG undergraduate program. Degree: B.Tech. Program: B.Tech Communication Systems Engineering."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-011",
+          "school": "School of Electronics & Communication",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech VLSI Design",
+          "short_name": "MTech-VLSI",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of VLSI Design",
+          "description": "The M.Tech VLSI Design program under the School of Electronics & Communication is a postgraduate program offering advanced study and specialization in VLSI design, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech VLSI",
+            "MTech VLSI",
+            "VLSI Design",
+            "Semiconductor",
+            "Chip Design"
+          ],
+          "search_text": "School of Electronics & Communication. PG postgraduate program. Degree: M.Tech. Program: M.Tech VLSI Design."
+        },
+        {
+          "program_id": "GIST-PG-012",
+          "school": "School of Electronics & Communication",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Embedded Systems",
+          "short_name": "MTech-EmbeddedSystems",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Embedded Systems",
+          "description": "The M.Tech Embedded Systems program under the School of Electronics & Communication is a postgraduate program offering advanced study and specialization in embedded systems, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Embedded Systems",
+            "MTech Embedded Systems",
+            "Embedded Systems",
+            "Microcontrollers",
+            "Embedded"
+          ],
+          "search_text": "School of Electronics & Communication. PG postgraduate program. Degree: M.Tech. Program: M.Tech Embedded Systems."
+        },
+        {
+          "program_id": "GIST-PG-013",
+          "school": "School of Electronics & Communication",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Communication Systems",
+          "short_name": "MTech-CommunicationSystems",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Communication Systems Engineering",
+          "description": "The M.Tech Communication Systems program under the School of Electronics & Communication is a postgraduate program offering advanced study and specialization in communication systems, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Communication Systems",
+            "MTech Communication Systems",
+            "Communication Systems Engineering",
+            "Communication Engineering",
+            "Telecommunication"
+          ],
+          "search_text": "School of Electronics & Communication. PG postgraduate program. Degree: M.Tech. Program: M.Tech Communication Systems."
+        },
+        {
+          "program_id": "GIST-PG-014",
+          "school": "School of Electronics & Communication",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Electronics & Instrumentation",
+          "short_name": "MTech-ElectronicsInstrumentation",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Electronics and Instrumentation Engineering",
+          "description": "The M.Tech Electronics & Instrumentation program under the School of Electronics & Communication is a postgraduate program offering advanced study and specialization in electronics and instrumentation, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Electronics Instrumentation",
+            "MTech Electronics and Instrumentation",
+            "Electronics",
+            "Instrumentation Engineering",
+            "EIE"
+          ],
+          "search_text": "School of Electronics & Communication. PG postgraduate program. Degree: M.Tech. Program: M.Tech Electronics & Instrumentation."
+        },
+        {
+          "program_id": "GIST-PG-015",
+          "school": "School of Electronics & Communication",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Electronics",
+          "short_name": "MSc-Electronics",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Electronics and Communication Engineering",
+          "description": "The M.Sc. Electronics program under the School of Electronics & Communication is a postgraduate program offering advanced study and specialization in electronics, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Electronics",
+            "MSc Electronics",
+            "Electronics",
+            "Electronic Systems",
+            "Communication"
+          ],
+          "search_text": "School of Electronics & Communication. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Electronics."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Mechanical Engineering",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-022",
+          "school": "School of Mechanical Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Mechanical Engineering",
+          "short_name": "BTech-Mechanical",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Mechanical Engineering",
+          "description": "The B.Tech Mechanical Engineering program under the School of Mechanical Engineering offers undergraduate education in mechanical engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Mechanical",
+            "BTech Mechanical",
+            "Mechanical Engineering",
+            "Mechanical",
+            "Engineering",
+            "Manufacturing"
+          ],
+          "search_text": "School of Mechanical Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Mechanical Engineering."
+        },
+        {
+          "program_id": "GIST-UG-023",
+          "school": "School of Mechanical Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Mechatronics Engineering",
+          "short_name": "BTech-Mechatronics",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Mechatronics Engineering",
+          "description": "The B.Tech Mechatronics Engineering program under the School of Mechanical Engineering offers undergraduate education in mechatronics engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Mechatronics",
+            "BTech Mechatronics",
+            "Mechatronics Engineering",
+            "Robotics",
+            "Automation",
+            "Mechanical Engineering"
+          ],
+          "search_text": "School of Mechanical Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Mechatronics Engineering."
+        },
+        {
+          "program_id": "GIST-UG-024",
+          "school": "School of Mechanical Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Automobile Engineering",
+          "short_name": "BTech-AE",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Automobile Engineering",
+          "description": "The B.Tech Automobile Engineering program under the School of Mechanical Engineering offers undergraduate education in automobile engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Automobile",
+            "BTech Automobile",
+            "Automobile Engineering",
+            "Automotive Engineering",
+            "Vehicles",
+            "Automobiles"
+          ],
+          "search_text": "School of Mechanical Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Automobile Engineering."
+        },
+        {
+          "program_id": "GIST-UG-025",
+          "school": "School of Mechanical Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Robotics & Automation",
+          "short_name": "BTech-RA",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Robotics and Automation",
+          "description": "The B.Tech Robotics & Automation program under the School of Mechanical Engineering offers undergraduate education in robotics and automation, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Robotics",
+            "BTech Robotics",
+            "Robotics and Automation",
+            "Robotics",
+            "Automation",
+            "Industrial Automation"
+          ],
+          "search_text": "School of Mechanical Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Robotics & Automation."
+        },
+        {
+          "program_id": "GIST-UG-026",
+          "school": "School of Mechanical Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Manufacturing Engineering",
+          "short_name": "BTech-Manufacturing",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Manufacturing Engineering",
+          "description": "The B.Tech Manufacturing Engineering program under the School of Mechanical Engineering offers undergraduate education in manufacturing engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Manufacturing",
+            "BTech Manufacturing",
+            "Manufacturing Engineering",
+            "Manufacturing",
+            "Production Engineering",
+            "Mechanical Engineering"
+          ],
+          "search_text": "School of Mechanical Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Manufacturing Engineering."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-016",
+          "school": "School of Mechanical Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Mechanical Engineering",
+          "short_name": "MTech-Mechanical",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Mechanical Engineering",
+          "description": "The M.Tech Mechanical Engineering program under the School of Mechanical Engineering is a postgraduate program offering advanced study and specialization in mechanical engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Mechanical",
+            "MTech Mechanical Engineering",
+            "Mechanical Engineering",
+            "Mechanical",
+            "Manufacturing"
+          ],
+          "search_text": "School of Mechanical Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Mechanical Engineering."
+        },
+        {
+          "program_id": "GIST-PG-017",
+          "school": "School of Mechanical Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Robotics & Automation",
+          "short_name": "MTech-RoboticsAutomation",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Robotics and Automation",
+          "description": "The M.Tech Robotics & Automation program under the School of Mechanical Engineering is a postgraduate program offering advanced study and specialization in robotics and automation, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Robotics Automation",
+            "MTech Robotics and Automation",
+            "Robotics",
+            "Automation",
+            "Industrial Automation"
+          ],
+          "search_text": "School of Mechanical Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Robotics & Automation."
+        },
+        {
+          "program_id": "GIST-PG-018",
+          "school": "School of Mechanical Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Mechatronics",
+          "short_name": "MTech-Mechatronics",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Mechatronics Engineering",
+          "description": "The M.Tech Mechatronics program under the School of Mechanical Engineering is a postgraduate program offering advanced study and specialization in mechatronics, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Mechatronics",
+            "MTech Mechatronics",
+            "Mechatronics Engineering",
+            "Robotics",
+            "Automation"
+          ],
+          "search_text": "School of Mechanical Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Mechatronics."
+        },
+        {
+          "program_id": "GIST-PG-019",
+          "school": "School of Mechanical Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Manufacturing Engineering",
+          "short_name": "MTech-Manufacturing",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Manufacturing Engineering",
+          "description": "The M.Tech Manufacturing Engineering program under the School of Mechanical Engineering is a postgraduate program offering advanced study and specialization in manufacturing engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Manufacturing",
+            "MTech Manufacturing Engineering",
+            "Manufacturing",
+            "Production Engineering",
+            "Mechanical Engineering"
+          ],
+          "search_text": "School of Mechanical Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Manufacturing Engineering."
+        },
+        {
+          "program_id": "GIST-PG-020",
+          "school": "School of Mechanical Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Automobile Engineering",
+          "short_name": "MTech-Automobile",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Automobile Engineering",
+          "description": "The M.Tech Automobile Engineering program under the School of Mechanical Engineering is a postgraduate program offering advanced study and specialization in automobile engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Automobile",
+            "MTech Automobile Engineering",
+            "Automobile Engineering",
+            "Automotive Engineering",
+            "Vehicles"
+          ],
+          "search_text": "School of Mechanical Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Automobile Engineering."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Civil Engineering",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-029",
+          "school": "School of Civil Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Civil Engineering",
+          "short_name": "BTech-CE",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Civil Engineering",
+          "description": "The B.Tech Civil Engineering program under the School of Civil Engineering offers undergraduate education in civil engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Civil",
+            "BTech Civil",
+            "Civil Engineering",
+            "Construction",
+            "Infrastructure",
+            "Engineering"
+          ],
+          "search_text": "School of Civil Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Civil Engineering."
+        },
+        {
+          "program_id": "GIST-UG-030",
+          "school": "School of Civil Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Environmental Engineering",
+          "short_name": "BTech-Environmental",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Environmental Engineering",
+          "description": "The B.Tech Environmental Engineering program under the School of Civil Engineering offers undergraduate education in environmental engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Environmental Engineering",
+            "BTech Environmental",
+            "Environmental Engineering",
+            "Environment",
+            "Sustainability",
+            "Pollution Control"
+          ],
+          "search_text": "School of Civil Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Environmental Engineering."
+        },
+        {
+          "program_id": "GIST-UG-031",
+          "school": "School of Civil Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Construction Technology",
+          "short_name": "BTech-ConstructionTechnology",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Construction Technology",
+          "description": "The B.Tech Construction Technology program under the School of Civil Engineering offers undergraduate education in construction technology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Construction Technology",
+            "BTech Construction",
+            "Construction Technology",
+            "Construction",
+            "Civil Engineering",
+            "Building Technology"
+          ],
+          "search_text": "School of Civil Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Construction Technology."
+        },
+        {
+          "program_id": "GIST-UG-032",
+          "school": "School of Civil Engineering",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Infrastructure Engineering",
+          "short_name": "BTech-Infrastructure",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Infrastructure Engineering",
+          "description": "The B.Tech Infrastructure Engineering program under the School of Civil Engineering offers undergraduate education in infrastructure engineering, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Infrastructure Engineering",
+            "BTech Infrastructure",
+            "Infrastructure Engineering",
+            "Infrastructure",
+            "Civil Engineering",
+            "Construction"
+          ],
+          "search_text": "School of Civil Engineering. UG undergraduate program. Degree: B.Tech. Program: B.Tech Infrastructure Engineering."
+        },
+        {
+          "program_id": "GIST-UG-033",
+          "school": "School of Civil Engineering",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Construction Technology",
+          "short_name": "BSc-ConstructionTechnology",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Construction Technology",
+          "description": "The B.Sc. Construction Technology program under the School of Civil Engineering offers undergraduate education in construction technology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Construction Technology",
+            "BSc Construction",
+            "Construction Technology",
+            "Construction",
+            "Civil Engineering",
+            "Building Technology"
+          ],
+          "search_text": "School of Civil Engineering. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Construction Technology."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-021",
+          "school": "School of Civil Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Structural Engineering",
+          "short_name": "MTech-Structural",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Structural Engineering",
+          "description": "The M.Tech Structural Engineering program under the School of Civil Engineering is a postgraduate program offering advanced study and specialization in structural engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Structural Engineering",
+            "MTech Structural",
+            "Structural Engineering",
+            "Civil Engineering",
+            "Structures"
+          ],
+          "search_text": "School of Civil Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Structural Engineering."
+        },
+        {
+          "program_id": "GIST-PG-022",
+          "school": "School of Civil Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Construction Engineering & Management",
+          "short_name": "MTech-ConstructionManagement",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Construction Engineering and Management",
+          "description": "The M.Tech Construction Engineering & Management program under the School of Civil Engineering is a postgraduate program offering advanced study and specialization in construction engineering and management, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Construction Management",
+            "MTech Construction Engineering and Management",
+            "Construction Management",
+            "Construction",
+            "Civil Engineering"
+          ],
+          "search_text": "School of Civil Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Construction Engineering & Management."
+        },
+        {
+          "program_id": "GIST-PG-023",
+          "school": "School of Civil Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Environmental Engineering",
+          "short_name": "MTech-Environmental",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Environmental Engineering",
+          "description": "The M.Tech Environmental Engineering program under the School of Civil Engineering is a postgraduate program offering advanced study and specialization in environmental engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Environmental Engineering",
+            "MTech Environmental",
+            "Environmental Engineering",
+            "Environment",
+            "Pollution Control"
+          ],
+          "search_text": "School of Civil Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Environmental Engineering."
+        },
+        {
+          "program_id": "GIST-PG-024",
+          "school": "School of Civil Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Transportation Engineering",
+          "short_name": "MTech-Transportation",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Transportation Engineering",
+          "description": "The M.Tech Transportation Engineering program under the School of Civil Engineering is a postgraduate program offering advanced study and specialization in transportation engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Transportation Engineering",
+            "MTech Transportation",
+            "Transportation Engineering",
+            "Transportation",
+            "Civil Engineering"
+          ],
+          "search_text": "School of Civil Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Transportation Engineering."
+        },
+        {
+          "program_id": "GIST-PG-025",
+          "school": "School of Civil Engineering",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Geotechnical Engineering",
+          "short_name": "MTech-Geotechnical",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Geotechnical Engineering",
+          "description": "The M.Tech Geotechnical Engineering program under the School of Civil Engineering is a postgraduate program offering advanced study and specialization in geotechnical engineering, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Geotechnical Engineering",
+            "MTech Geotechnical",
+            "Geotechnical Engineering",
+            "Soil Mechanics",
+            "Civil Engineering"
+          ],
+          "search_text": "School of Civil Engineering. PG postgraduate program. Degree: M.Tech. Program: M.Tech Geotechnical Engineering."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Management",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-035",
+          "school": "School of Management",
+          "level": "UG",
+          "degree": "BBA",
+          "program_name": "BBA – Bachelor of Business Administration",
+          "short_name": "BBA",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Business Administration",
+          "description": "The BBA – Bachelor of Business Administration program under the School of Management offers undergraduate education in business administration, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "BBA",
+            "Bachelor of Business Administration",
+            "Business Administration",
+            "Management",
+            "Business",
+            "Commerce"
+          ],
+          "search_text": "School of Management. UG undergraduate program. Degree: BBA. Program: BBA – Bachelor of Business Administration."
+        },
+        {
+          "program_id": "GIST-UG-036",
+          "school": "School of Management",
+          "level": "UG",
+          "degree": "BBA",
+          "program_name": "BBA Business Analytics",
+          "short_name": "BBA-BA",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Business Analytics",
+          "description": "The BBA Business Analytics program under the School of Management offers undergraduate education in business analytics, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "BBA Business Analytics",
+            "BBA BA",
+            "Business Analytics",
+            "Analytics",
+            "Business Intelligence",
+            "Management"
+          ],
+          "search_text": "School of Management. UG undergraduate program. Degree: BBA. Program: BBA Business Analytics."
+        },
+        {
+          "program_id": "GIST-UG-037",
+          "school": "School of Management",
+          "level": "UG",
+          "degree": "BBA",
+          "program_name": "BBA Digital Marketing",
+          "short_name": "BBA-DM",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Marketing",
+          "description": "The BBA Digital Marketing program under the School of Management offers undergraduate education in digital marketing, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "BBA Digital Marketing",
+            "Digital Marketing",
+            "Marketing",
+            "Online Marketing",
+            "Social Media Marketing",
+            "BBA"
+          ],
+          "search_text": "School of Management. UG undergraduate program. Degree: BBA. Program: BBA Digital Marketing."
+        },
+        {
+          "program_id": "GIST-UG-038",
+          "school": "School of Management",
+          "level": "UG",
+          "degree": "BBA",
+          "program_name": "BBA Finance",
+          "short_name": "BBA-F",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Finance",
+          "description": "The BBA Finance program under the School of Management offers undergraduate education in finance, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "BBA Finance",
+            "Finance",
+            "Financial Management",
+            "Business Finance",
+            "BBA",
+            "Banking"
+          ],
+          "search_text": "School of Management. UG undergraduate program. Degree: BBA. Program: BBA Finance."
+        },
+        {
+          "program_id": "GIST-UG-039",
+          "school": "School of Management",
+          "level": "UG",
+          "degree": "BBA",
+          "program_name": "BBA Human Resource Management",
+          "short_name": "BBA-HRM",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Human Resource Management",
+          "description": "The BBA Human Resource Management program under the School of Management offers undergraduate education in human resource management, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "BBA HRM",
+            "BBA Human Resource Management",
+            "Human Resource Management",
+            "HR",
+            "Human Resources",
+            "Management"
+          ],
+          "search_text": "School of Management. UG undergraduate program. Degree: BBA. Program: BBA Human Resource Management."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-026",
+          "school": "School of Management",
+          "level": "PG",
+          "degree": "MBA",
+          "program_name": "MBA – Master of Business Administration",
+          "short_name": "MBA",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Business Administration",
+          "description": "The MBA – Master of Business Administration program under the School of Management is a postgraduate program offering advanced study and specialization in business administration, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "MBA",
+            "Master of Business Administration",
+            "Business Administration",
+            "Management",
+            "Business"
+          ],
+          "search_text": "School of Management. PG postgraduate program. Degree: MBA. Program: MBA – Master of Business Administration."
+        },
+        {
+          "program_id": "GIST-PG-027",
+          "school": "School of Management",
+          "level": "PG",
+          "degree": "MBA",
+          "program_name": "MBA Business Analytics",
+          "short_name": "MBA-BusinessAnalytics",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Business Analytics",
+          "description": "The MBA Business Analytics program under the School of Management is a postgraduate program offering advanced study and specialization in business analytics, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "MBA Business Analytics",
+            "Business Analytics",
+            "Analytics",
+            "Business Intelligence",
+            "Management"
+          ],
+          "search_text": "School of Management. PG postgraduate program. Degree: MBA. Program: MBA Business Analytics."
+        },
+        {
+          "program_id": "GIST-PG-028",
+          "school": "School of Management",
+          "level": "PG",
+          "degree": "MBA",
+          "program_name": "MBA Finance",
+          "short_name": "MBA-Finance",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Finance",
+          "description": "The MBA Finance program under the School of Management is a postgraduate program offering advanced study and specialization in finance, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "MBA Finance",
+            "Finance",
+            "Financial Management",
+            "Business Finance",
+            "Banking"
+          ],
+          "search_text": "School of Management. PG postgraduate program. Degree: MBA. Program: MBA Finance."
+        },
+        {
+          "program_id": "GIST-PG-029",
+          "school": "School of Management",
+          "level": "PG",
+          "degree": "MBA",
+          "program_name": "MBA Marketing",
+          "short_name": "MBA-Marketing",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Marketing",
+          "description": "The MBA Marketing program under the School of Management is a postgraduate program offering advanced study and specialization in marketing, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "MBA Marketing",
+            "Marketing",
+            "Digital Marketing",
+            "Brand Management",
+            "Management"
+          ],
+          "search_text": "School of Management. PG postgraduate program. Degree: MBA. Program: MBA Marketing."
+        },
+        {
+          "program_id": "GIST-PG-030",
+          "school": "School of Management",
+          "level": "PG",
+          "degree": "MBA",
+          "program_name": "MBA Human Resource Management",
+          "short_name": "MBA-HRM",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Human Resource Management",
+          "description": "The MBA Human Resource Management program under the School of Management is a postgraduate program offering advanced study and specialization in human resource management, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "MBA HRM",
+            "MBA Human Resource Management",
+            "Human Resource Management",
+            "HR",
+            "Human Resources"
+          ],
+          "search_text": "School of Management. PG postgraduate program. Degree: MBA. Program: MBA Human Resource Management."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Science & Humanities",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-044",
+          "school": "School of Science & Humanities",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Mathematics",
+          "short_name": "BSc-Mathematics",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Mathematics",
+          "description": "The B.Sc. Mathematics program under the School of Science & Humanities offers undergraduate education in mathematics, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Mathematics",
+            "BSc Mathematics",
+            "Mathematics",
+            "Maths",
+            "Mathematical Science",
+            "Science"
+          ],
+          "search_text": "School of Science & Humanities. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Mathematics."
+        },
+        {
+          "program_id": "GIST-UG-045",
+          "school": "School of Science & Humanities",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Physics",
+          "short_name": "BSc-Physics",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Physics",
+          "description": "The B.Sc. Physics program under the School of Science & Humanities offers undergraduate education in physics, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Physics",
+            "BSc Physics",
+            "Physics",
+            "Physical Science",
+            "Science",
+            "Applied Physics"
+          ],
+          "search_text": "School of Science & Humanities. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Physics."
+        },
+        {
+          "program_id": "GIST-UG-046",
+          "school": "School of Science & Humanities",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Chemistry",
+          "short_name": "BSc-Chemistry",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Chemistry",
+          "description": "The B.Sc. Chemistry program under the School of Science & Humanities offers undergraduate education in chemistry, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Chemistry",
+            "BSc Chemistry",
+            "Chemistry",
+            "Chemical Science",
+            "Science",
+            "Applied Chemistry"
+          ],
+          "search_text": "School of Science & Humanities. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Chemistry."
+        },
+        {
+          "program_id": "GIST-UG-047",
+          "school": "School of Science & Humanities",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Biotechnology",
+          "short_name": "BSc-Biotechnology",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Biotechnology",
+          "description": "The B.Sc. Biotechnology program under the School of Science & Humanities offers undergraduate education in biotechnology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Biotechnology",
+            "BSc Biotechnology",
+            "Biotechnology",
+            "Life Sciences",
+            "Biological Science",
+            "Science"
+          ],
+          "search_text": "School of Science & Humanities. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Biotechnology."
+        },
+        {
+          "program_id": "GIST-UG-048",
+          "school": "School of Science & Humanities",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Microbiology",
+          "short_name": "BSc-Microbiology",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Microbiology",
+          "description": "The B.Sc. Microbiology program under the School of Science & Humanities offers undergraduate education in microbiology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Microbiology",
+            "BSc Microbiology",
+            "Microbiology",
+            "Microorganisms",
+            "Life Sciences",
+            "Biological Science"
+          ],
+          "search_text": "School of Science & Humanities. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Microbiology."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-033",
+          "school": "School of Science & Humanities",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Mathematics",
+          "short_name": "MSc-Mathematics",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Mathematics",
+          "description": "The M.Sc. Mathematics program under the School of Science & Humanities is a postgraduate program offering advanced study and specialization in mathematics, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Mathematics",
+            "MSc Mathematics",
+            "Mathematics",
+            "Applied Mathematics",
+            "Statistics"
+          ],
+          "search_text": "School of Science & Humanities. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Mathematics."
+        },
+        {
+          "program_id": "GIST-PG-034",
+          "school": "School of Science & Humanities",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Physics",
+          "short_name": "MSc-Physics",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Physics",
+          "description": "The M.Sc. Physics program under the School of Science & Humanities is a postgraduate program offering advanced study and specialization in physics, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Physics",
+            "MSc Physics",
+            "Physics",
+            "Applied Physics",
+            "Science"
+          ],
+          "search_text": "School of Science & Humanities. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Physics."
+        },
+        {
+          "program_id": "GIST-PG-035",
+          "school": "School of Science & Humanities",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Chemistry",
+          "short_name": "MSc-Chemistry",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Chemistry",
+          "description": "The M.Sc. Chemistry program under the School of Science & Humanities is a postgraduate program offering advanced study and specialization in chemistry, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Chemistry",
+            "MSc Chemistry",
+            "Chemistry",
+            "Applied Chemistry",
+            "Science"
+          ],
+          "search_text": "School of Science & Humanities. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Chemistry."
+        },
+        {
+          "program_id": "GIST-PG-036",
+          "school": "School of Science & Humanities",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Biotechnology",
+          "short_name": "MSc-Biotechnology",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Biotechnology",
+          "description": "The M.Sc. Biotechnology program under the School of Science & Humanities is a postgraduate program offering advanced study and specialization in biotechnology, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Biotechnology",
+            "MSc Biotechnology",
+            "Biotechnology",
+            "Biological Sciences",
+            "Life Sciences"
+          ],
+          "search_text": "School of Science & Humanities. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Biotechnology."
+        },
+        {
+          "program_id": "GIST-PG-037",
+          "school": "School of Science & Humanities",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Microbiology",
+          "short_name": "MSc-Microbiology",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Microbiology",
+          "description": "The M.Sc. Microbiology program under the School of Science & Humanities is a postgraduate program offering advanced study and specialization in microbiology, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Microbiology",
+            "MSc Microbiology",
+            "Microbiology",
+            "Biological Sciences",
+            "Life Sciences"
+          ],
+          "search_text": "School of Science & Humanities. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Microbiology."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Design & Innovation",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-053",
+          "school": "School of Design & Innovation",
+          "level": "UG",
+          "degree": "B.Des.",
+          "program_name": "B.Des. Product Design",
+          "short_name": "BDes-PD",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Product Design",
+          "description": "The B.Des. Product Design program under the School of Design & Innovation offers undergraduate education in product design, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Des Product Design",
+            "BDes Product Design",
+            "Product Design",
+            "Industrial Design",
+            "Design",
+            "Innovation"
+          ],
+          "search_text": "School of Design & Innovation. UG undergraduate program. Degree: B.Des.. Program: B.Des. Product Design."
+        },
+        {
+          "program_id": "GIST-UG-054",
+          "school": "School of Design & Innovation",
+          "level": "UG",
+          "degree": "B.Des.",
+          "program_name": "B.Des. User Experience Design",
+          "short_name": "BDes-UED",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of User Experience Design",
+          "description": "The B.Des. User Experience Design program under the School of Design & Innovation offers undergraduate education in user experience design, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Des UX Design",
+            "BDes UX Design",
+            "User Experience Design",
+            "UX",
+            "User Interface",
+            "UI UX",
+            "Design"
+          ],
+          "search_text": "School of Design & Innovation. UG undergraduate program. Degree: B.Des.. Program: B.Des. User Experience Design."
+        },
+        {
+          "program_id": "GIST-UG-055",
+          "school": "School of Design & Innovation",
+          "level": "UG",
+          "degree": "B.Des.",
+          "program_name": "B.Des. Communication Design",
+          "short_name": "BDes-CD",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Communication Design",
+          "description": "The B.Des. Communication Design program under the School of Design & Innovation offers undergraduate education in communication design, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Des Communication Design",
+            "BDes Communication Design",
+            "Communication Design",
+            "Graphic Design",
+            "Visual Communication",
+            "Design"
+          ],
+          "search_text": "School of Design & Innovation. UG undergraduate program. Degree: B.Des.. Program: B.Des. Communication Design."
+        },
+        {
+          "program_id": "GIST-UG-056",
+          "school": "School of Design & Innovation",
+          "level": "UG",
+          "degree": "B.Des.",
+          "program_name": "B.Des. Interaction Design",
+          "short_name": "BDes-ID",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Interaction Design",
+          "description": "The B.Des. Interaction Design program under the School of Design & Innovation offers undergraduate education in interaction design, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Des Interaction Design",
+            "BDes Interaction Design",
+            "Interaction Design",
+            "UX Design",
+            "UI Design",
+            "Human Computer Interaction"
+          ],
+          "search_text": "School of Design & Innovation. UG undergraduate program. Degree: B.Des.. Program: B.Des. Interaction Design."
+        },
+        {
+          "program_id": "GIST-UG-057",
+          "school": "School of Design & Innovation",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Fashion Design",
+          "short_name": "BSc-FD",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Fashion Design",
+          "description": "The B.Sc. Fashion Design program under the School of Design & Innovation offers undergraduate education in fashion design, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Fashion Design",
+            "BSc Fashion Design",
+            "Fashion Design",
+            "Fashion",
+            "Textile Design",
+            "Design"
+          ],
+          "search_text": "School of Design & Innovation. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Fashion Design."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-042",
+          "school": "School of Design & Innovation",
+          "level": "PG",
+          "degree": "M.Des.",
+          "program_name": "M.Des. Product Design",
+          "short_name": "MDes-ProductDesign",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Product Design",
+          "description": "The M.Des. Product Design program under the School of Design & Innovation is a postgraduate program offering advanced study and specialization in product design, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Des Product Design",
+            "MDes Product Design",
+            "Product Design",
+            "Design",
+            "Industrial Design"
+          ],
+          "search_text": "School of Design & Innovation. PG postgraduate program. Degree: M.Des.. Program: M.Des. Product Design."
+        },
+        {
+          "program_id": "GIST-PG-043",
+          "school": "School of Design & Innovation",
+          "level": "PG",
+          "degree": "M.Des.",
+          "program_name": "M.Des. User Experience Design",
+          "short_name": "MDes-UXDesign",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of User Experience Design",
+          "description": "The M.Des. User Experience Design program under the School of Design & Innovation is a postgraduate program offering advanced study and specialization in user experience design, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Des UX Design",
+            "MDes User Experience Design",
+            "User Experience Design",
+            "UX Design",
+            "Design"
+          ],
+          "search_text": "School of Design & Innovation. PG postgraduate program. Degree: M.Des.. Program: M.Des. User Experience Design."
+        },
+        {
+          "program_id": "GIST-PG-044",
+          "school": "School of Design & Innovation",
+          "level": "PG",
+          "degree": "M.Des.",
+          "program_name": "M.Des. Communication Design",
+          "short_name": "MDes-CommunicationDesign",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Communication Design",
+          "description": "The M.Des. Communication Design program under the School of Design & Innovation is a postgraduate program offering advanced study and specialization in communication design, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Des Communication Design",
+            "MDes Communication Design",
+            "Communication Design",
+            "Visual Design",
+            "Design"
+          ],
+          "search_text": "School of Design & Innovation. PG postgraduate program. Degree: M.Des.. Program: M.Des. Communication Design."
+        },
+        {
+          "program_id": "GIST-PG-045",
+          "school": "School of Design & Innovation",
+          "level": "PG",
+          "degree": "M.Des.",
+          "program_name": "M.Des. Interaction Design",
+          "short_name": "MDes-InteractionDesign",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Interaction Design",
+          "description": "The M.Des. Interaction Design program under the School of Design & Innovation is a postgraduate program offering advanced study and specialization in interaction design, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Des Interaction Design",
+            "MDes Interaction Design",
+            "Interaction Design",
+            "UX Design",
+            "Design"
+          ],
+          "search_text": "School of Design & Innovation. PG postgraduate program. Degree: M.Des.. Program: M.Des. Interaction Design."
+        },
+        {
+          "program_id": "GIST-PG-046",
+          "school": "School of Design & Innovation",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Design & Innovation",
+          "short_name": "MSc-DesignInnovation",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Design",
+          "description": "The M.Sc. Design & Innovation program under the School of Design & Innovation is a postgraduate program offering advanced study and specialization in design and innovation, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Design Innovation",
+            "MSc Design and Innovation",
+            "Design Innovation",
+            "Design",
+            "Innovation"
+          ],
+          "search_text": "School of Design & Innovation. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Design & Innovation."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Emerging Technologies",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-061",
+          "school": "School of Emerging Technologies",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Artificial Intelligence & Robotics",
+          "short_name": "BTech-AIR",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Artificial Intelligence and Robotics",
+          "description": "The B.Tech Artificial Intelligence & Robotics program under the School of Emerging Technologies offers undergraduate education in artificial intelligence and robotics, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech AI Robotics",
+            "BTech AIR",
+            "Artificial Intelligence",
+            "Robotics",
+            "AI",
+            "Machine Learning",
+            "Automation"
+          ],
+          "search_text": "School of Emerging Technologies. UG undergraduate program. Degree: B.Tech. Program: B.Tech Artificial Intelligence & Robotics."
+        },
+        {
+          "program_id": "GIST-UG-062",
+          "school": "School of Emerging Technologies",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Internet of Things",
+          "short_name": "BTech-IoT",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Internet of Things",
+          "description": "The B.Tech Internet of Things program under the School of Emerging Technologies offers undergraduate education in Internet of Things, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech IoT",
+            "BTech IoT",
+            "Internet of Things",
+            "IoT",
+            "Connected Devices",
+            "Smart Systems"
+          ],
+          "search_text": "School of Emerging Technologies. UG undergraduate program. Degree: B.Tech. Program: B.Tech Internet of Things."
+        },
+        {
+          "program_id": "GIST-UG-063",
+          "school": "School of Emerging Technologies",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Blockchain Technology",
+          "short_name": "BTech-Blockchain",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Blockchain Technology",
+          "description": "The B.Tech Blockchain Technology program under the School of Emerging Technologies offers undergraduate education in blockchain technology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Blockchain",
+            "BTech Blockchain",
+            "Blockchain Technology",
+            "Blockchain",
+            "Distributed Ledger",
+            "Web3"
+          ],
+          "search_text": "School of Emerging Technologies. UG undergraduate program. Degree: B.Tech. Program: B.Tech Blockchain Technology."
+        },
+        {
+          "program_id": "GIST-UG-064",
+          "school": "School of Emerging Technologies",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Cloud Computing",
+          "short_name": "BTech-CloudComputing",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Cloud Computing",
+          "description": "The B.Tech Cloud Computing program under the School of Emerging Technologies offers undergraduate education in cloud computing, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Cloud Computing",
+            "BTech Cloud",
+            "Cloud Computing",
+            "Cloud Technology",
+            "Cloud Services",
+            "Distributed Computing"
+          ],
+          "search_text": "School of Emerging Technologies. UG undergraduate program. Degree: B.Tech. Program: B.Tech Cloud Computing."
+        },
+        {
+          "program_id": "GIST-UG-065",
+          "school": "School of Emerging Technologies",
+          "level": "UG",
+          "degree": "B.Tech",
+          "program_name": "B.Tech Quantum Computing",
+          "short_name": "BTech-QuantumComputing",
+          "duration": "4 Years",
+          "duration_years": 4,
+          "department": "Department of Quantum Computing",
+          "description": "The B.Tech Quantum Computing program under the School of Emerging Technologies offers undergraduate education in quantum computing, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Tech Quantum Computing",
+            "BTech Quantum",
+            "Quantum Computing",
+            "Quantum Technology",
+            "Quantum Algorithms",
+            "Computing"
+          ],
+          "search_text": "School of Emerging Technologies. UG undergraduate program. Degree: B.Tech. Program: B.Tech Quantum Computing."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-047",
+          "school": "School of Emerging Technologies",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Artificial Intelligence & Robotics",
+          "short_name": "MTech-AIR",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Artificial Intelligence and Robotics",
+          "description": "The M.Tech Artificial Intelligence & Robotics program under the School of Emerging Technologies is a postgraduate program offering advanced study and specialization in artificial intelligence and robotics, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech AI Robotics",
+            "MTech Artificial Intelligence and Robotics",
+            "Artificial Intelligence",
+            "Robotics",
+            "Emerging Technologies"
+          ],
+          "search_text": "School of Emerging Technologies. PG postgraduate program. Degree: M.Tech. Program: M.Tech Artificial Intelligence & Robotics."
+        },
+        {
+          "program_id": "GIST-PG-048",
+          "school": "School of Emerging Technologies",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Internet of Things",
+          "short_name": "MTech-IoT",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Internet of Things",
+          "description": "The M.Tech Internet of Things program under the School of Emerging Technologies is a postgraduate program offering advanced study and specialization in Internet of Things, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech IoT",
+            "MTech Internet of Things",
+            "Internet of Things",
+            "IoT",
+            "Embedded Systems"
+          ],
+          "search_text": "School of Emerging Technologies. PG postgraduate program. Degree: M.Tech. Program: M.Tech Internet of Things."
+        },
+        {
+          "program_id": "GIST-PG-049",
+          "school": "School of Emerging Technologies",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Cloud Computing",
+          "short_name": "MTech-CloudComputing",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Cloud Computing",
+          "description": "The M.Tech Cloud Computing program under the School of Emerging Technologies is a postgraduate program offering advanced study and specialization in cloud computing, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Cloud Computing",
+            "MTech Cloud Computing",
+            "Cloud Computing",
+            "Cloud",
+            "Distributed Systems"
+          ],
+          "search_text": "School of Emerging Technologies. PG postgraduate program. Degree: M.Tech. Program: M.Tech Cloud Computing."
+        },
+        {
+          "program_id": "GIST-PG-050",
+          "school": "School of Emerging Technologies",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Blockchain Technology",
+          "short_name": "MTech-Blockchain",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Blockchain Technology",
+          "description": "The M.Tech Blockchain Technology program under the School of Emerging Technologies is a postgraduate program offering advanced study and specialization in blockchain technology, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Blockchain",
+            "MTech Blockchain Technology",
+            "Blockchain Technology",
+            "Blockchain",
+            "Distributed Ledger"
+          ],
+          "search_text": "School of Emerging Technologies. PG postgraduate program. Degree: M.Tech. Program: M.Tech Blockchain Technology."
+        },
+        {
+          "program_id": "GIST-PG-051",
+          "school": "School of Emerging Technologies",
+          "level": "PG",
+          "degree": "M.Tech",
+          "program_name": "M.Tech Quantum Computing",
+          "short_name": "MTech-QuantumComputing",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Quantum Computing",
+          "description": "The M.Tech Quantum Computing program under the School of Emerging Technologies is a postgraduate program offering advanced study and specialization in quantum computing, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Tech Quantum Computing",
+            "MTech Quantum Computing",
+            "Quantum Computing",
+            "Quantum Technology",
+            "Emerging Technologies"
+          ],
+          "search_text": "School of Emerging Technologies. PG postgraduate program. Degree: M.Tech. Program: M.Tech Quantum Computing."
+        }
+      ]
+    },
+    {
+      "school_name": "School of Psychology",
+      "ug_programs": [
+        {
+          "program_id": "GIST-UG-072",
+          "school": "School of Psychology",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Psychology",
+          "short_name": "BSc-Psychology",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Psychology",
+          "description": "The B.Sc. Psychology program under the School of Psychology offers undergraduate education in psychology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Psychology",
+            "BSc Psychology",
+            "Psychology",
+            "Human Behaviour",
+            "Behavioral Science",
+            "Science"
+          ],
+          "search_text": "School of Psychology. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Psychology."
+        },
+        {
+          "program_id": "GIST-UG-073",
+          "school": "School of Psychology",
+          "level": "UG",
+          "degree": "B.A.",
+          "program_name": "B.A. Applied Psychology",
+          "short_name": "BA-AppliedPsychology",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Applied Psychology",
+          "description": "The B.A. Applied Psychology program under the School of Psychology offers undergraduate education in applied psychology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.A Applied Psychology",
+            "BA Applied Psychology",
+            "Applied Psychology",
+            "Psychology",
+            "Behavioral Science",
+            "Human Behaviour"
+          ],
+          "search_text": "School of Psychology. UG undergraduate program. Degree: B.A.. Program: B.A. Applied Psychology."
+        },
+        {
+          "program_id": "GIST-UG-074",
+          "school": "School of Psychology",
+          "level": "UG",
+          "degree": "B.Sc.",
+          "program_name": "B.Sc. Counselling Psychology",
+          "short_name": "BSc-CounsellingPsychology",
+          "duration": "3 Years",
+          "duration_years": 3,
+          "department": "Department of Counselling Psychology",
+          "description": "The B.Sc. Counselling Psychology program under the School of Psychology offers undergraduate education in counselling psychology, combining foundational and applied learning to prepare students for careers and further study in the field.",
+          "eligibility": "Completion of higher secondary education with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "B.Sc Counselling Psychology",
+            "BSc Counselling Psychology",
+            "Counselling Psychology",
+            "Psychology",
+            "Counselling",
+            "Mental Health Studies"
+          ],
+          "search_text": "School of Psychology. UG undergraduate program. Degree: B.Sc.. Program: B.Sc. Counselling Psychology."
+        }
+      ],
+      "pg_programs": [
+        {
+          "program_id": "GIST-PG-055",
+          "school": "School of Psychology",
+          "level": "PG",
+          "degree": "M.A.",
+          "program_name": "M.A. Psychology",
+          "short_name": "MA-Psychology",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Psychology",
+          "description": "The M.A. Psychology program under the School of Psychology is a postgraduate program offering advanced study and specialization in psychology, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.A Psychology",
+            "MA Psychology",
+            "Psychology",
+            "School of Psychology",
+            "Humanities"
+          ],
+          "search_text": "School of Psychology. PG postgraduate program. Degree: M.A.. Program: M.A. Psychology."
+        },
+        {
+          "program_id": "GIST-PG-056",
+          "school": "School of Psychology",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Psychology",
+          "short_name": "MSc-Psychology",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Psychology",
+          "description": "The M.Sc. Psychology program under the School of Psychology is a postgraduate program offering advanced study and specialization in psychology, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Psychology",
+            "MSc Psychology",
+            "Psychology",
+            "Behavioral Science",
+            "School of Psychology"
+          ],
+          "search_text": "School of Psychology. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Psychology."
+        },
+        {
+          "program_id": "GIST-PG-057",
+          "school": "School of Psychology",
+          "level": "PG",
+          "degree": "M.A.",
+          "program_name": "M.A. Applied Psychology",
+          "short_name": "MA-AppliedPsychology",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Applied Psychology",
+          "description": "The M.A. Applied Psychology program under the School of Psychology is a postgraduate program offering advanced study and specialization in applied psychology, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.A Applied Psychology",
+            "MA Applied Psychology",
+            "Applied Psychology",
+            "Psychology",
+            "Counselling"
+          ],
+          "search_text": "School of Psychology. PG postgraduate program. Degree: M.A.. Program: M.A. Applied Psychology."
+        },
+        {
+          "program_id": "GIST-PG-058",
+          "school": "School of Psychology",
+          "level": "PG",
+          "degree": "M.Sc.",
+          "program_name": "M.Sc. Counselling Psychology",
+          "short_name": "MSc-CounsellingPsychology",
+          "duration": "2 Years",
+          "duration_years": 2,
+          "department": "Department of Counselling Psychology",
+          "description": "The M.Sc. Counselling Psychology program under the School of Psychology is a postgraduate program offering advanced study and specialization in counselling psychology, designed to build deeper expertise for careers, research, or further academic pursuits in the field.",
+          "eligibility": "A relevant undergraduate degree with the required subjects, subject to applicable admission requirements.",
+          "keywords": [
+            "M.Sc Counselling Psychology",
+            "MSc Counselling Psychology",
+            "Counselling Psychology",
+            "Psychology",
+            "Counselling"
+          ],
+          "search_text": "School of Psychology. PG postgraduate program. Degree: M.Sc.. Program: M.Sc. Counselling Psychology."
+        }
+      ]
+    }
+  ]
+}

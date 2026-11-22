@@ -1,0 +1,228 @@
+{
+  "program": "Computer Science and Engineering",
+  "duration": "4 Years",
+  "total_years": 4,
+  "total_semesters": 8,
+  "years": [
+    {
+      "year": 1,
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            {
+              "subject_code": "CSE101",
+              "subject_name": "Engineering Mathematics I"
+            },
+            {
+              "subject_code": "CSE102",
+              "subject_name": "Engineering Physics"
+            },
+            {
+              "subject_code": "CSE103",
+              "subject_name": "Problem Solving and Programming in C"
+            },
+            {
+              "subject_code": "CSE104",
+              "subject_name": "Basic Electrical and Electronics Engineering"
+            },
+            {
+              "subject_code": "CSE105",
+              "subject_name": "Technical English and Communication Skills"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            {
+              "subject_code": "CSE201",
+              "subject_name": "Engineering Mathematics II"
+            },
+            {
+              "subject_code": "CSE202",
+              "subject_name": "Engineering Chemistry"
+            },
+            {
+              "subject_code": "CSE203",
+              "subject_name": "Python Programming"
+            },
+            {
+              "subject_code": "CSE204",
+              "subject_name": "Digital Logic Design"
+            },
+            {
+              "subject_code": "CSE205",
+              "subject_name": "Engineering Graphics and Design"
+            },
+            {
+              "subject_code": "CSE206",
+              "subject_name": "Environmental Science and Sustainability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semesters": [
+        {
+          "semester": 3,
+          "subjects": [
+            {
+              "subject_code": "CSE301",
+              "subject_name": "Data Structures"
+            },
+            {
+              "subject_code": "CSE302",
+              "subject_name": "Discrete Mathematics"
+            },
+            {
+              "subject_code": "CSE303",
+              "subject_name": "Computer Organization and Architecture"
+            },
+            {
+              "subject_code": "CSE304",
+              "subject_name": "Object-Oriented Programming with Java"
+            },
+            {
+              "subject_code": "CSE305",
+              "subject_name": "Probability and Statistics"
+            }
+          ]
+        },
+        {
+          "semester": 4,
+          "subjects": [
+            {
+              "subject_code": "CSE401",
+              "subject_name": "Design and Analysis of Algorithms"
+            },
+            {
+              "subject_code": "CSE402",
+              "subject_name": "Operating Systems"
+            },
+            {
+              "subject_code": "CSE403",
+              "subject_name": "Database Management Systems"
+            },
+            {
+              "subject_code": "CSE404",
+              "subject_name": "Theory of Computation"
+            },
+            {
+              "subject_code": "CSE405",
+              "subject_name": "Software Engineering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semesters": [
+        {
+          "semester": 5,
+          "subjects": [
+            {
+              "subject_code": "CSE501",
+              "subject_name": "Computer Networks"
+            },
+            {
+              "subject_code": "CSE502",
+              "subject_name": "Compiler Design"
+            },
+            {
+              "subject_code": "CSE503",
+              "subject_name": "Artificial Intelligence"
+            },
+            {
+              "subject_code": "CSE504",
+              "subject_name": "Web Technologies"
+            },
+            {
+              "subject_code": "CSE505",
+              "subject_name": "Microprocessors and Embedded Systems"
+            }
+          ]
+        },
+        {
+          "semester": 6,
+          "subjects": [
+            {
+              "subject_code": "CSE601",
+              "subject_name": "Machine Learning"
+            },
+            {
+              "subject_code": "CSE602",
+              "subject_name": "Cryptography and Network Security"
+            },
+            {
+              "subject_code": "CSE603",
+              "subject_name": "Cloud Computing"
+            },
+            {
+              "subject_code": "CSE604",
+              "subject_name": "Computer Graphics and Visualization"
+            },
+            {
+              "subject_code": "CSE605",
+              "subject_name": "Mobile Application Development"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semesters": [
+        {
+          "semester": 7,
+          "subjects": [
+            {
+              "subject_code": "CSE701",
+              "subject_name": "Deep Learning"
+            },
+            {
+              "subject_code": "CSE702",
+              "subject_name": "Distributed Systems"
+            },
+            {
+              "subject_code": "CSE703",
+              "subject_name": "Internet of Things"
+            },
+            {
+              "subject_code": "CSE704",
+              "subject_name": "Natural Language Processing (Professional Elective)"
+            },
+            {
+              "subject_code": "CSE705",
+              "subject_name": "Professional Ethics and Intellectual Property Rights"
+            }
+          ]
+        },
+        {
+          "semester": 8,
+          "subjects": [
+            {
+              "subject_code": "CSE801",
+              "subject_name": "Big Data Analytics"
+            },
+            {
+              "subject_code": "CSE802",
+              "subject_name": "Blockchain Technology"
+            },
+            {
+              "subject_code": "CSE803",
+              "subject_name": "DevOps and Software Testing (Professional Elective)"
+            },
+            {
+              "subject_code": "CSE804",
+              "subject_name": "Project Work and Industry Internship"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

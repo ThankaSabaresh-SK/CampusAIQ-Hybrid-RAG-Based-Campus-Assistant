@@ -1,0 +1,129 @@
+{
+  "College Information": [
+    "What is the full name of the college?",
+    "What is the short name of the college?",
+    "When was the college established?",
+    "What is the vision of the college?",
+    "What is the mission of the college?",
+    "Which schools are available at the college?",
+    "What facilities are available on campus?",
+    "What are the working hours of the college?"
+  ],
+
+  "UG Programs": [
+    "What undergraduate programs are available?",
+    "Which engineering programs are offered?",
+    "What computer science-related undergraduate programs are available?",
+    "Does the college offer B.Tech programs?",
+    "What B.Sc programs are available?",
+    "What BBA programs are offered?",
+    "What B.Com programs are available?",
+    "What B.Des programs are offered?",
+    "Which programs are offered under the School of Computing?",
+    "Which programs are related to Artificial Intelligence?",
+    "Which programs are related to Data Science?",
+    "Does the college offer BCA?",
+    "Does the college offer B.Tech Computer Science and Engineering?",
+    "Does the college offer B.Tech Artificial Intelligence and Machine Learning?"
+  ],
+
+  "PG Programs": [
+    "What postgraduate programs are available?",
+    "Which master's degree programs are offered?",
+    "Does the college offer M.Tech programs?",
+    "What M.Sc programs are available?",
+    "What M.A programs are offered?",
+    "Which postgraduate programs are offered under the School of Computing?",
+    "Which postgraduate programs are related to Computer Science?",
+    "Does the college offer M.Tech Computer Science and Engineering?",
+    "Does the college offer M.Sc Artificial Intelligence?",
+    "What postgraduate programs are related to Artificial Intelligence?"
+  ],
+
+  "Curriculum": [
+    "What is the curriculum for Computer Science and Engineering?",
+    "How many years is the undergraduate program?",
+    "How many semesters are there in the first year?",
+    "What subjects are taught in the first semester?",
+    "What subjects are taught in the second semester?",
+    "What subjects are taught in the first year?",
+    "What subjects are taught in the second year?",
+    "What subjects are taught in the third year?",
+    "What subjects are taught in the fourth year?",
+    "Which subjects are offered in Semester 3?",
+    "Which subjects are offered in Semester 4?",
+    "Which subjects are offered in Semester 5?",
+    "Which subjects are offered in Semester 6?",
+    "Which subjects are offered in Semester 7?",
+    "Which subjects are offered in Semester 8?",
+    "What is the subject code for Engineering Mathematics I?",
+    "What is the subject code for Data Structures?",
+    "What topics are covered in Engineering Mathematics I?",
+    "What are the topics in Differential Calculus?",
+    "Which subject contains Differential Calculus?",
+    "Which semester has Data Structures?",
+    "What are the topics covered in Data Structures?",
+    "What topics are included in Computer Networks?",
+    "Which subject contains Computer Networks?",
+    "What topics are included in Database Management Systems?",
+    "What topics are included in Operating Systems?",
+    "What topics are included in Machine Learning?",
+    "Which subjects are related to Artificial Intelligence?",
+    "Which subjects are related to Machine Learning?",
+    "What are the programming-related subjects in the curriculum?",
+    "What are the core Computer Science subjects?",
+    "How many subjects are there in Semester 1?",
+    "Show the curriculum hierarchy from year to topics.",
+    "Show the subjects and topics for Semester 1.",
+    "Show all subjects under Year 1."
+  ],
+
+  "Admissions": [
+    "How can I apply for admission?",
+    "What is the admission process?",
+    "What documents are required for admission?",
+    "Where can I get official admission information?",
+    "Who should I contact for admission-related queries?",
+    "Where can I get information about admission requirements?"
+  ],
+
+  "Fees": [
+    "What are the college fees?",
+    "What is the tuition fee?",
+    "How much are the B.Tech fees?",
+    "How much are the hostel fees?",
+    "Where can I get the official fee details?"
+  ],
+
+  "Application": [
+    "How can I apply to the college?",
+    "Where can I get the application form?",
+    "How can I submit my application?",
+    "Where can I get help with the application?",
+    "Who should I contact regarding my application?"
+  ],
+
+  "Document Verification": [
+    "Where can I verify my documents?",
+    "How can I complete document verification?",
+    "Who handles document verification?",
+    "Where can I get help with document verification?"
+  ],
+
+  "Student Services": [
+    "How can I check my attendance?",
+    "How can I access the student portal?",
+    "Where can I check my academic information?",
+    "How can I view my student details?",
+    "Where can I get help with student portal-related queries?"
+  ],
+
+  "Contact Information": [
+    "What is the college contact number?",
+    "What is the college email address?",
+    "What is the college address?",
+    "How can I contact the admission office?",
+    "How can I contact the college for official information?",
+    "What is the admission office phone number?"
+  ]
+}

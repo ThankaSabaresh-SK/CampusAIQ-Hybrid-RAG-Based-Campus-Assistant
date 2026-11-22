@@ -1,0 +1,1665 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07100b">
+<meta name="description" content="Digital Campus — student services, academic resources, announcements and AI-powered assistance.">
+<title>Digital Campus | Smart Student Portal</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b1710'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-size='62' fill='%237cffb2'%3ED%3C/text%3E%3C/svg%3E">
+
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #07100b;
+  --bg-soft: #0b1710;
+  --surface: rgba(19, 37, 26, .72);
+  --surface-strong: rgba(24, 47, 32, .88);
+  --surface-hover: rgba(31, 63, 42, .9);
+  --text: #effff4;
+  --muted: #a2b8a9;
+  --green: #00c875;
+  --green-bright: #7cffb2;
+  --green-soft: #b9fbd0;
+  --border: rgba(124, 255, 178, .17);
+  --border-hover: rgba(124, 255, 178, .48);
+  --shadow: 0 16px 45px rgba(0, 0, 0, .22);
+  --radius: 20px;
+  --max-width: 1180px;
+}
+
+body.light-theme {
+  color-scheme: light;
+  --bg: #f2f8f3;
+  --bg-soft: #e9f3eb;
+  --surface: rgba(255, 255, 255, .78);
+  --surface-strong: rgba(255, 255, 255, .94);
+  --surface-hover: rgba(225, 246, 231, .96);
+  --text: #102219;
+  --muted: #53695b;
+  --green: #087b48;
+  --green-bright: #087b48;
+  --green-soft: #176b43;
+  --border: rgba(8, 123, 72, .18);
+  --border-hover: rgba(8, 123, 72, .5);
+  --shadow: 0 16px 45px rgba(23, 69, 39, .09);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 95px; }
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  transition: background .25s, color .25s;
+}
+
+body::before, body::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  filter: blur(105px);
+  opacity: .12;
+  pointer-events: none;
+}
+
+body::before { background: #00e676; top: 5%; left: -190px; }
+body::after { background: #00a85e; bottom: 5%; right: -190px; }
+
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 3px solid var(--green-bright);
+  outline-offset: 4px;
+}
+
+.container { width: min(var(--max-width), calc(100% - 40px)); margin-inline: auto; }
+
+.glass {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+/* NAVIGATION */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 76px;
+  padding: 12px max(22px, calc((100% - var(--max-width)) / 2));
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -.7px;
+  white-space: nowrap;
+}
+
+.logo-mark {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--border-hover);
+  border-radius: 14px;
+  color: #04160b;
+  background: linear-gradient(135deg, var(--green), var(--green-bright));
+  box-shadow: 0 0 25px rgba(0, 200, 117, .15);
+}
+
+.logo span { color: var(--green-bright); }
+
+.nav-links { display: flex; align-items: center; gap: 12px; }
+
+.nav-link {
+  padding: 9px 14px;
+  border-radius: 11px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background .2s, color .2s;
+}
+
+.nav-link:hover { background: var(--surface-hover); color: var(--text); }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 43px;
+  padding: 11px 17px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 750;
+  transition: transform .2s, box-shadow .2s, background .2s;
+}
+
+.btn:hover { transform: translateY(-2px); }
+
+.btn-primary {
+  color: #04160b;
+  background: linear-gradient(135deg, var(--green), var(--green-bright));
+  box-shadow: 0 7px 22px rgba(0, 200, 117, .16);
+}
+
+.btn-secondary {
+  color: var(--text);
+  background: var(--surface);
+  border-color: var(--border-hover);
+  backdrop-filter: blur(12px);
+}
+
+.theme-toggle {
+  width: 43px;
+  height: 43px;
+  display: grid;
+  place-items: center;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  isolation: isolate;
+  padding: 92px 20px 65px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-orb {
+  position: absolute;
+  z-index: -1;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: rgba(0, 200, 117, .10);
+  filter: blur(90px);
+  pointer-events: none;
+}
+
+.hero-orb.one { top: -180px; left: 8%; }
+.hero-orb.two { right: 5%; bottom: -230px; background: rgba(124, 255, 178, .08); }
+
+.hero-content { position: relative; max-width: 880px; margin: auto; }
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 15px;
+  margin-bottom: 25px;
+  color: var(--green-bright);
+  background: var(--surface);
+  border: 1px solid var(--border-hover);
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green-bright);
+  box-shadow: 0 0 12px var(--green);
+}
+
+.hero h1 {
+  font-size: clamp(36px, 5.6vw, 68px);
+  line-height: 1.08;
+  letter-spacing: -2.4px;
+  font-weight: 850;
+}
+
+.gradient-text {
+  display: inline-block;
+  color: var(--green-bright);
+  background: linear-gradient(90deg, var(--green), var(--green-bright), #d3ffe2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 24px auto 0;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 29px;
+}
+
+.hero-note { margin-top: 24px; color: var(--muted); font-size: 12px; }
+
+/* SECTIONS */
+.section { padding: 46px 0; }
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+  margin-bottom: 23px;
+}
+
+.eyebrow {
+  margin-bottom: 7px;
+  color: var(--green-bright);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.section-heading h2 { font-size: clamp(24px, 3vw, 34px); letter-spacing: -.8px; line-height: 1.2; }
+.section-heading p { color: var(--muted); font-size: 14px; margin-top: 8px; }
+
+/* QUICK ACCESS */
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 13px;
+}
+
+.quick-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding: 16px 13px;
+  color: var(--text);
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  transition: transform .2s, border-color .2s, background .2s;
+  backdrop-filter: blur(16px);
+}
+
+.quick-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-hover);
+  background: var(--surface-hover);
+}
+
+.quick-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 39px;
+  width: 39px;
+  height: 39px;
+  background: rgba(0, 200, 117, .12);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 19px;
+}
+
+.quick-card strong { display: block; font-size: 12px; line-height: 1.35; }
+.quick-card small { display: block; color: var(--muted); font-size: 10px; margin-top: 4px; }
+
+/* ANNOUNCEMENTS AND EVENTS */
+.info-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px; }
+
+.info-panel {
+  padding: 23px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(18px);
+}
+
+.panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 17px;
+}
+
+.panel-title h3 { font-size: 17px; }
+.demo-badge {
+  padding: 4px 8px;
+  color: var(--green-bright);
+  background: rgba(0, 200, 117, .09);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.notice-list, .event-list { display: grid; gap: 11px; }
+
+.notice-item, .event-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 13px;
+  background: rgba(127, 160, 137, .055);
+  border: 1px solid var(--border);
+  border-radius: 13px;
+}
+
+.notice-icon, .event-date {
+  display: grid;
+  place-items: center;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  color: var(--green-bright);
+  background: rgba(0, 200, 117, .1);
+  border-radius: 11px;
+  font-size: 18px;
+}
+
+.event-date { font-size: 10px; font-weight: 850; text-align: center; }
+
+.notice-item h4, .event-item h4 { font-size: 13px; line-height: 1.4; }
+.notice-item p, .event-item p { margin-top: 4px; color: var(--muted); font-size: 11px; }
+
+/* SERVICES */
+.services-section { padding-top: 56px; }
+
+.services-top {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.service-count { color: var(--muted); font-size: 12px; white-space: nowrap; }
+
+.search-wrap { position: relative; margin-bottom: 17px; }
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  transform: translateY(-50%);
+  font-size: 17px;
+  pointer-events: none;
+}
+
+#serviceSearch {
+  width: 100%;
+  min-height: 53px;
+  padding: 14px 16px 14px 47px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  outline: none;
+  backdrop-filter: blur(18px);
+  transition: border-color .2s, box-shadow .2s;
+}
+
+#serviceSearch::placeholder { color: var(--muted); }
+#serviceSearch:focus { border-color: var(--border-hover); box-shadow: 0 0 0 4px rgba(0, 200, 117, .07); }
+
+.filter-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.filter-chip {
+  padding: 8px 13px;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: .2s;
+}
+
+.filter-chip:hover, .filter-chip.active {
+  color: #04160b;
+  background: linear-gradient(135deg, var(--green), var(--green-bright));
+  border-color: transparent;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.service-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-width: 0;
+  min-height: 125px;
+  padding: 18px;
+  color: var(--text);
+  text-align: left;
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(27, 51, 35, .79), rgba(11, 23, 16, .83));
+  border: 1px solid var(--border);
+  border-radius: 19px;
+  box-shadow: 0 9px 25px rgba(0, 0, 0, .12);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  transition: transform .23s, border-color .23s, background .23s, box-shadow .23s;
+}
+
+.service-card::after {
+  content: "";
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  right: -58px;
+  top: -58px;
+  border-radius: 50%;
+  background: rgba(124, 255, 178, .07);
+  transition: transform .3s;
+  pointer-events: none;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  background: var(--surface-hover);
+  border-color: var(--border-hover);
+  box-shadow: 0 16px 35px rgba(0, 200, 117, .09);
+}
+
+.service-card:hover::after { transform: scale(1.7); }
+
+.service-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 47px;
+  width: 47px;
+  height: 47px;
+  color: var(--green-bright);
+  background: rgba(0, 200, 117, .105);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  font-size: 22px;
+}
+
+.service-copy { flex: 1; min-width: 0; }
+.service-copy h3 { font-size: 14px; font-weight: 800; line-height: 1.35; }
+.service-copy p { margin-top: 6px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+.service-arrow { flex: 0 0 auto; color: var(--green-bright); font-size: 18px; transition: transform .2s; }
+.service-card:hover .service-arrow { transform: translate(3px, -3px); }
+
+.empty-state {
+  display: none;
+  padding: 35px 18px;
+  text-align: center;
+  color: var(--muted);
+  border: 1px dashed var(--border-hover);
+  border-radius: 17px;
+}
+.empty-state strong { display: block; color: var(--text); margin-bottom: 6px; }
+
+.scroll-hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.scroll-hint span { color: var(--green-bright); animation: nudge 1.8s ease-in-out infinite; }
+
+/* RECENT SERVICES */
+#recentSection { display: none; padding-top: 22px; }
+.recent-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+
+/* FOOTER */
+.footer {
+  margin-top: 60px;
+  padding: 50px 0 20px;
+  background: rgba(3, 8, 5, .35);
+  border-top: 1px solid var(--border);
+}
+
+body.light-theme .footer { background: rgba(255, 255, 255, .35); }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 35px;
+  padding-bottom: 34px;
+}
+
+.footer-about p { max-width: 390px; margin-top: 15px; color: var(--muted); font-size: 13px; }
+.footer-column h3 { margin-bottom: 14px; font-size: 14px; }
+.footer-column a, .footer-column button {
+  display: block;
+  margin: 10px 0;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  text-align: left;
+  font-size: 12px;
+}
+.footer-column a:hover, .footer-column button:hover { color: var(--green-bright); }
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding-top: 17px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  font-size: 11px;
+}
+
+/* CHATBOT */
+.ai-wrapper { position: fixed; z-index: 1500; right: 25px; bottom: 23px; }
+
+.ai-button {
+  display: grid;
+  place-items: center;
+  width: 61px;
+  height: 61px;
+  color: #04160b;
+  background: linear-gradient(135deg, var(--green), var(--green-bright));
+  border: 1px solid rgba(184, 255, 213, .4);
+  border-radius: 50%;
+  font-size: 26px;
+  box-shadow: 0 0 0 7px rgba(0, 200, 117, .07), 0 12px 35px rgba(0, 200, 117, .25);
+  transition: transform .2s, box-shadow .2s;
+}
+
+.ai-button:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 0 0 10px rgba(0, 200, 117, .08), 0 16px 40px rgba(0, 200, 117, .3); }
+
+.ai-tooltip {
+  position: absolute;
+  right: 4px;
+  bottom: 75px;
+  padding: 8px 12px;
+  color: var(--text);
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.chat-box {
+  position: absolute;
+  right: 0;
+  bottom: 77px;
+  display: none;
+  flex-direction: column;
+  width: min(390px, calc(100vw - 32px));
+  height: min(570px, calc(100dvh - 130px));
+  min-height: 350px;
+  overflow: hidden;
+  color: var(--text);
+  background: var(--bg-soft);
+  border: 1px solid var(--border-hover);
+  border-radius: 22px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, .48);
+  backdrop-filter: blur(22px);
+}
+
+.chat-box.active { display: flex; animation: chat-in .2s ease-out; }
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 17px;
+  background: linear-gradient(135deg, rgba(16, 55, 32, .96), rgba(9, 35, 21, .96));
+  border-bottom: 1px solid var(--border);
+}
+
+.chat-header-left { display: flex; align-items: center; gap: 11px; }
+.ai-circle {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  color: #04160b;
+  background: linear-gradient(135deg, var(--green), var(--green-bright));
+  border-radius: 13px;
+  font-size: 21px;
+}
+.chat-title { font-size: 14px; font-weight: 850; color: #fff; }
+.chat-status { color: #b8e9c8; font-size: 11px; }
+
+.close-chat {
+  width: 35px;
+  height: 35px;
+  color: white;
+  background: rgba(255, 255, 255, .08);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 10px;
+  font-size: 23px;
+}
+
+.chat-messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  overflow-y: auto;
+  padding: 17px;
+  background: var(--bg-soft);
+}
+
+.message {
+  max-width: 90%;
+  padding: 11px 13px;
+  border-radius: 14px;
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.bot-message {
+  align-self: flex-start;
+  color: var(--text);
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 4px;
+}
+
+.user-message {
+  align-self: flex-end;
+  color: #04160b;
+  background: linear-gradient(135deg, var(--green), var(--green-bright));
+  border-bottom-right-radius: 4px;
+}
+
+.suggestions { display: flex; flex-wrap: wrap; gap: 7px; padding: 0 15px 12px; background: var(--bg-soft); }
+
+.suggestion-chip {
+  padding: 7px 10px;
+  color: var(--green-bright);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  font-size: 10px;
+}
+.suggestion-chip:hover { background: var(--surface-hover); }
+
+.chat-input-area {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.chat-input {
+  flex: 1;
+  width: 0;
+  min-height: 43px;
+  padding: 11px 13px;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  outline: none;
+}
+.chat-input::placeholder { color: var(--muted); }
+
+.send-button {
+  flex: 0 0 43px;
+  width: 43px;
+  height: 43px;
+  color: #04160b;
+  background: linear-gradient(135deg, var(--green), var(--green-bright));
+  border: 0;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.chat-error { color: #ffd2c9; }
+
+/* TOAST AND SCROLL TOP */
+.toast {
+  position: fixed;
+  z-index: 2000;
+  left: 50%;
+  bottom: 25px;
+  transform: translate(-50%, 20px);
+  max-width: calc(100vw - 30px);
+  padding: 12px 17px;
+  color: var(--text);
+  background: var(--surface-strong);
+  border: 1px solid var(--border-hover);
+  border-radius: 13px;
+  box-shadow: var(--shadow);
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+}
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+.back-top {
+  position: fixed;
+  z-index: 1200;
+  left: 22px;
+  bottom: 22px;
+  display: none;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  color: var(--green-bright);
+  background: var(--surface-strong);
+  border: 1px solid var(--border-hover);
+  border-radius: 13px;
+  box-shadow: var(--shadow);
+  font-size: 20px;
+}
+.back-top.visible { display: grid; }
+
+/* ANIMATIONS */
+.reveal { opacity: 0; transform: translateY(15px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+@keyframes nudge {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+}
+@keyframes chat-in {
+  from { opacity: 0; transform: translateY(8px) scale(.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+
+/* FUNCTIONAL SERVICE AND LOGIN DIALOGS */
+.dialog-backdrop {
+  position: fixed; inset: 0; z-index: 3000; display: none;
+  align-items: center; justify-content: center; padding: 18px;
+  background: rgba(0, 0, 0, .68); backdrop-filter: blur(8px);
+}
+.dialog-backdrop.open { display: flex; }
+.dialog-panel {
+  width: min(560px, 100%); max-height: min(82vh, 760px); overflow-y: auto;
+  color: var(--text); background: var(--bg-soft); border: 1px solid var(--border-hover);
+  border-radius: 22px; box-shadow: 0 25px 90px rgba(0,0,0,.5); padding: 24px;
+}
+.dialog-head { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:16px; }
+.dialog-head h2 { font-size:22px; line-height:1.25; }
+.dialog-head p, .dialog-copy { color:var(--muted); font-size:13px; margin-top:7px; }
+.dialog-close { flex:0 0 36px; width:36px; height:36px; border:1px solid var(--border); border-radius:10px; color:var(--text); background:var(--surface); font-size:22px; }
+.dialog-form { display:grid; gap:13px; margin-top:18px; }
+.dialog-form label { display:grid; gap:6px; color:var(--muted); font-size:12px; font-weight:700; }
+.dialog-form input, .dialog-form select, .dialog-form textarea {
+  width:100%; padding:12px 13px; color:var(--text); background:var(--bg);
+  border:1px solid var(--border); border-radius:11px; font:inherit;
+}
+.dialog-form textarea { min-height:100px; resize:vertical; }
+.dialog-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+.dialog-note { padding:12px 13px; border:1px solid var(--border); border-radius:12px; color:var(--muted); font-size:12px; margin-top:14px; }
+.service-card:focus-visible, .quick-card:focus-visible { outline:3px solid var(--green-bright); outline-offset:3px; }
+
+@media (max-width: 900px) {
+  .quick-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .footer-grid { grid-template-columns: 1.3fr 1fr; }
+  .footer-about { grid-column: 1 / -1; }
+}
+
+@media (max-width: 600px) {
+  .navbar { min-height: 67px; padding: 10px 15px; }
+  .logo { gap: 8px; font-size: 17px; }
+  .logo-mark { width: 36px; height: 36px; border-radius: 11px; }
+  .nav-links { gap: 7px; }
+  .nav-link { padding: 8px 9px; font-size: 12px; }
+  .btn { min-height: 39px; padding: 9px 11px; font-size: 12px; }
+  .theme-toggle { width: 38px; height: 38px; }
+  .container { width: calc(100% - 28px); }
+  .hero { padding: 68px 17px 42px; }
+  .hero h1 { font-size: clamp(34px, 9vw, 47px); letter-spacing: -1.5px; }
+  .hero p { font-size: 14px; }
+  .hero-badge { font-size: 10px; letter-spacing: .7px; }
+  .section { padding: 31px 0; }
+  .section-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .quick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+  .quick-card { gap: 9px; padding: 12px 9px; }
+  .quick-icon { flex-basis: 34px; width: 34px; height: 34px; font-size: 16px; }
+  .quick-card strong { font-size: 11px; }
+  .quick-card small { font-size: 9px; }
+  .info-grid { grid-template-columns: 1fr; }
+  .info-panel { padding: 15px; }
+  .services-top { align-items: flex-start; flex-direction: column; gap: 7px; }
+  .service-grid, .recent-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+  .service-card { min-height: 145px; padding: 13px 10px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 16px; }
+  .service-icon { flex-basis: 38px; width: 38px; height: 38px; font-size: 19px; border-radius: 11px; }
+  .service-copy h3 { font-size: 12px; }
+  .service-copy p { font-size: 10px; }
+  .service-arrow { position: absolute; right: 11px; top: 12px; font-size: 15px; }
+  .filter-row { gap: 6px; }
+  .filter-chip { padding: 7px 10px; font-size: 10px; }
+  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+  .footer-about { grid-column: 1 / -1; }
+  .footer-bottom { flex-direction: column; }
+  .ai-wrapper { right: 13px; bottom: 13px; }
+  .ai-button { width: 54px; height: 54px; font-size: 23px; }
+  .ai-tooltip { display: none; }
+  .chat-box { right: -2px; bottom: 67px; width: min(370px, calc(100vw - 24px)); height: min(560px, calc(100dvh - 100px)); }
+  .back-top { left: 13px; bottom: 13px; }
+}
+
+@media (max-width: 360px) {
+  .nav-link { padding: 7px 6px; }
+  .theme-toggle { width: 34px; height: 34px; }
+  .logo { font-size: 15px; }
+  .service-card { padding: 11px 8px; }
+  .service-copy h3 { font-size: 11px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}
+</style>
+</head>
+
+<body>
+<header class="navbar">
+  <a href="#home" class="logo" aria-label="Digital Campus Home">
+    <span class="logo-mark">D</span>
+    <span style="color:var(--text)">Digital <span>Campus</span></span>
+  </a>
+
+  <nav class="nav-links" aria-label="Main navigation">
+    <a class="nav-link" href="#home">Home</a>
+    <button class="btn btn-primary" id="loginButton" type="button">Student Login ↗</button>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch colour theme" title="Switch theme">☼</button>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-orb one"></div>
+  <div class="hero-orb two"></div>
+  <div class="hero-content reveal">
+    <div class="hero-badge"><span class="status-dot"></span> SMART CAMPUS · AI POWERED</div>
+    <h1>Everything You Need.<br><span class="gradient-text">One Intelligent Campus.</span></h1>
+    <p>Your academic services, student resources, campus updates, and AI-powered assistance — all in one convenient place.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#services">Explore Services ↓</a>
+      <button class="btn btn-secondary" type="button" onclick="toggleChat(true)">✦ Ask AI Assistant</button>
+    </div>
+    <div class="hero-note">Simple. Connected. Designed around students.</div>
+  </div>
+</section>
+
+<main>
+  <section class="section container reveal" id="quick-access">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">Get there faster</div>
+        <h2>Quick <span class="gradient-text">Access</span></h2>
+        <p>Jump straight to the student services you use most.</p>
+      </div>
+    </div>
+
+    <div class="quick-grid">
+      <button class="quick-card" data-jump="Semester Result">
+        <span class="quick-icon">📊</span><span><strong>Results</strong><small>Semester results</small></span>
+      </button>
+      <button class="quick-card" data-jump="Daily Attendance">
+        <span class="quick-icon">✓</span><span><strong>Attendance</strong><small>Daily attendance</small></span>
+      </button>
+      <button class="quick-card" data-jump="Time Table">
+        <span class="quick-icon">🗓️</span><span><strong>Timetable</strong><small>Class schedule</small></span>
+      </button>
+      <button class="quick-card" data-jump="Download Hall Ticket">
+        <span class="quick-icon">🎫</span><span><strong>Hall Ticket</strong><small>Exam resources</small></span>
+      </button>
+      <button class="quick-card" data-jump="Tuition Fees">
+        <span class="quick-icon">₹</span><span><strong>Fee Services</strong><small>Payment information</small></span>
+      </button>
+    </div>
+  </section>
+
+  <section class="section container reveal" id="campus-updates">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">Stay in the loop</div>
+        <h2>Campus <span class="gradient-text">Updates</span></h2>
+        <p>A place for announcements and upcoming events.</p>
+      </div>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-panel">
+        <div class="panel-title">
+          <h3>📢 Announcements</h3>
+          <span class="demo-badge">DEMO CONTENT</span>
+        </div>
+        <div class="notice-list">
+          <article class="notice-item">
+            <div class="notice-icon">📚</div>
+            <div>
+              <h4>Academic Notices</h4>
+              <p>Use this area for verified syllabus, examination, and academic announcements.</p>
+            </div>
+          </article>
+          <article class="notice-item">
+            <div class="notice-icon">📝</div>
+            <div>
+              <h4>Examination Updates</h4>
+              <p>Publish confirmed exam schedules and hall-ticket information here.</p>
+            </div>
+          </article>
+          <article class="notice-item">
+            <div class="notice-icon">🔔</div>
+            <div>
+              <h4>Student Notifications</h4>
+              <p>Replace this sample content with official college notices.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="info-panel">
+        <div class="panel-title">
+          <h3>🗓️ Upcoming Events</h3>
+          <span class="demo-badge">DEMO CONTENT</span>
+        </div>
+        <div class="event-list">
+          <article class="event-item">
+            <div class="event-date">EVENT<br>01</div>
+            <div>
+              <h4>Academic Workshop</h4>
+              <p>Demo event · Replace with the confirmed date and details.</p>
+            </div>
+          </article>
+          <article class="event-item">
+            <div class="event-date">EVENT<br>02</div>
+            <div>
+              <h4>Student Activities</h4>
+              <p>Demo event · Add official registration information when available.</p>
+            </div>
+          </article>
+          <article class="event-item">
+            <div class="event-date">EVENT<br>03</div>
+            <div>
+              <h4>Campus Programme</h4>
+              <p>Demo event · Update with a real campus event.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services-section container reveal" id="services">
+    <div class="services-top">
+      <div>
+        <div class="eyebrow">Your campus, connected</div>
+        <h2 style="font-size:clamp(26px,3vw,35px)">Student <span class="gradient-text">Services</span></h2>
+        <p style="color:var(--muted);font-size:14px;margin-top:8px">Explore the available academic and campus resources.</p>
+      </div>
+      <div class="service-count" id="serviceCount" aria-live="polite">30 services</div>
+    </div>
+
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="serviceSearch" type="search" placeholder="Search services — e.g. results, fees, syllabus..." aria-label="Search student services" autocomplete="off">
+    </div>
+
+    <div class="filter-row" id="filterRow" aria-label="Filter services by category">
+      <button class="filter-chip active" data-category="All" type="button">All Services</button>
+      <button class="filter-chip" data-category="Academics" type="button">Academics</button>
+      <button class="filter-chip" data-category="Attendance & Exams" type="button">Attendance & Exams</button>
+      <button class="filter-chip" data-category="Fees" type="button">Fees</button>
+      <button class="filter-chip" data-category="Learning" type="button">Learning</button>
+      <button class="filter-chip" data-category="Student Life" type="button">Student Life</button>
+      <button class="filter-chip" data-category="Support" type="button">Support</button>
+    </div>
+
+    <div class="service-grid" id="serviceGrid"></div>
+    <div class="empty-state" id="emptyState">
+      <strong>No matching services found</strong>
+      Try another search term or select a different category.
+    </div>
+
+    <div class="scroll-hint"><span>↓</span> Scroll down to discover more services</div>
+  </section>
+
+  <section class="container reveal" id="recentSection">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">Pick up where you left off</div>
+        <h2>Recently <span class="gradient-text">Used</span></h2>
+        <p>Your recently selected services on this browser.</p>
+      </div>
+    </div>
+    <div class="recent-grid" id="recentGrid"></div>
+  </section>
+</main>
+
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="#home" class="logo">
+          <span class="logo-mark">D</span>
+          <span style="color:var(--text)">Digital <span>Campus</span></span>
+        </a>
+        <p>A student-focused digital portal bringing academic resources, campus services, and AI assistance together in one place.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="#services">Student Services</a>
+        <a href="#quick-access">Quick Access</a>
+        <a href="#campus-updates">Campus Updates</a>
+        <a href="#home">Back to Home</a>
+      </div>
+      <div class="footer-column">
+        <h3>Student Support</h3>
+        <button type="button" onclick="toggleChat(true)">Ask the AI Assistant</button>
+        <a href="#services">Academic Resources</a>
+        <a href="#services">Attendance & Exams</a>
+        <a href="#services">Fees & Payments</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="currentYear"></span> Digital Campus</span>
+      <span>Smart · Connected · Student Focused</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ai-wrapper">
+  <div class="ai-tooltip">AI Assistant · Ask a question</div>
+
+  <section class="chat-box" id="chatBox" aria-label="AI Assistant" aria-hidden="true">
+    <header class="chat-header">
+      <div class="chat-header-left">
+        <div class="ai-circle">✦</div>
+        <div>
+          <div class="chat-title">Campus AI Assistant</div>
+          <div class="chat-status" id="chatStatus">Ask about campus information</div>
+        </div>
+      </div>
+      <button class="close-chat" type="button" onclick="toggleChat(false)" aria-label="Close AI Assistant">×</button>
+    </header>
+
+    <div class="chat-messages" id="chatMessages" aria-live="polite">
+      <div class="message bot-message">👋 Hi! I'm your AI Assistant.
+
+Ask me about academics, attendance, subjects, results, timetable, fees, or campus services.</div>
+    </div>
+
+    <div class="suggestions" id="chatSuggestions">
+      <button class="suggestion-chip" type="button" data-question="What subjects are in semester 1?">Semester subjects</button>
+      <button class="suggestion-chip" type="button" data-question="Where can I find the syllabus?">Find syllabus</button>
+      <button class="suggestion-chip" type="button" data-question="How can I check CAE results?">CAE results</button>
+    </div>
+
+    <form class="chat-input-area" id="chatForm">
+      <input class="chat-input" id="chatInput" type="text" placeholder="Ask something..." aria-label="Type your question" autocomplete="off">
+      <button class="send-button" id="sendButton" type="submit" aria-label="Send message">➤</button>
+    </form>
+  </section>
+
+  <button class="ai-button" id="aiButton" type="button" onclick="toggleChat()" aria-label="Open AI Assistant">✦</button>
+</div>
+
+<button class="back-top" id="backTop" type="button" aria-label="Scroll to top" title="Back to top">↑</button>
+
+<div class="dialog-backdrop" id="actionDialog" role="presentation">
+  <section class="dialog-panel" role="dialog" aria-modal="true" aria-labelledby="dialogTitle">
+    <div class="dialog-head">
+      <div><h2 id="dialogTitle">Service</h2><p id="dialogSubtitle"></p></div>
+      <button class="dialog-close" id="dialogClose" type="button" aria-label="Close dialog">×</button>
+    </div>
+    <div id="dialogContent"></div>
+  </section>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+"use strict";
+
+/* -------------------------------------------------------
+   SERVICE DATA
+   All service names from the previous frontend are kept.
+   Service destinations can be connected when available.
+------------------------------------------------------- */
+
+const services = [
+  { name: "Information", icon: "ℹ️", category: "Support", description: "General campus and student information." },
+  { name: "Hourly Attendance", icon: "⏱️", category: "Attendance & Exams", description: "Review attendance recorded by hour." },
+  { name: "Daily Attendance", icon: "✓", category: "Attendance & Exams", description: "View daily attendance information." },
+  { name: "Hostel Fees", icon: "🏠", category: "Fees", description: "Hostel fee information and resources." },
+  { name: "Tuition Fees", icon: "₹", category: "Fees", description: "Tuition fee information and resources." },
+  { name: "Placement Fees", icon: "💼", category: "Fees", description: "Placement-related fee information." },
+  { name: "Arrear Fees", icon: "₹", category: "Fees", description: "Arrear fee information and resources." },
+  { name: "Revaluation Fees", icon: "🧾", category: "Fees", description: "Revaluation fee information." },
+  { name: "Semester Result", icon: "📊", category: "Attendance & Exams", description: "Find semester result resources." },
+  { name: "My CAE Result", icon: "📈", category: "Attendance & Exams", description: "Find continuous assessment result resources." },
+  { name: "LMS", icon: "💻", category: "Learning", description: "Learning management system resources." },
+  { name: "Learning", icon: "📖", category: "Learning", description: "Access learning-related resources." },
+  { name: "Library", icon: "📚", category: "Learning", description: "Library resources and information." },
+  { name: "Achievements", icon: "🏆", category: "Student Life", description: "Student achievements and accomplishments." },
+  { name: "Additional Skill Sets", icon: "⚡", category: "Learning", description: "Explore additional skill development." },
+  { name: "Feedback and Suggestion", icon: "💡", category: "Support", description: "Share a suggestion or feedback." },
+  { name: "Feedback", icon: "💬", category: "Support", description: "Access student feedback resources." },
+  { name: "My Grievance", icon: "🛟", category: "Support", description: "Find grievance-related information." },
+  { name: "Time Table", icon: "🗓️", category: "Academics", description: "Find timetable information." },
+  { name: "Transport", icon: "🚌", category: "Student Life", description: "Campus transport information." },
+  { name: "Internship Certificate", icon: "📄", category: "Student Life", description: "Internship certificate resources." },
+  { name: "Survey", icon: "📝", category: "Support", description: "Find student survey resources." },
+  { name: "Download Hall Ticket", icon: "🎫", category: "Attendance & Exams", description: "Find hall ticket information." },
+  { name: "Mess Menu", icon: "🍽️", category: "Student Life", description: "Campus mess and menu information." },
+  { name: "Event Calendar", icon: "📅", category: "Student Life", description: "Find campus event information." },
+  { name: "CBCS", icon: "📘", category: "Academics", description: "Curriculum and CBCS information." },
+  { name: "Elective", icon: "🧩", category: "Academics", description: "Find elective subject information." },
+  { name: "Syllabus", icon: "📑", category: "Academics", description: "Find syllabus and curriculum resources." },
+  { name: "Course Completion Certificate", icon: "🎓", category: "Learning", description: "Course completion certificate resources." },
+  { name: "Seating Arrangement ESE Examination", icon: "🪑", category: "Attendance & Exams", description: "Find end-semester exam seating information." }
+];
+
+const serviceGrid = document.getElementById("serviceGrid");
+const serviceSearch = document.getElementById("serviceSearch");
+const serviceCount = document.getElementById("serviceCount");
+const emptyState = document.getElementById("emptyState");
+const filterButtons = [...document.querySelectorAll(".filter-chip")];
+
+let activeCategory = "All";
+let toastTimer = null;
+
+function createServiceCard(service, compact = false) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "service-card";
+  button.dataset.name = service.name;
+  button.setAttribute("aria-label", `Open ${service.name} service`);
+
+  const icon = document.createElement("span");
+  icon.className = "service-icon";
+  icon.setAttribute("aria-hidden", "true");
+  icon.textContent = service.icon;
+
+  const copy = document.createElement("span");
+  copy.className = "service-copy";
+
+  const title = document.createElement("h3");
+  title.textContent = service.name;
+
+  copy.appendChild(title);
+
+  if (!compact) {
+    const description = document.createElement("p");
+    description.textContent = service.description;
+    copy.appendChild(description);
+  }
+
+  const arrow = document.createElement("span");
+  arrow.className = "service-arrow";
+  arrow.setAttribute("aria-hidden", "true");
+  arrow.textContent = "↗";
+
+  button.append(icon, copy, arrow);
+  button.addEventListener("click", () => selectService(service.name));
+  return button;
+}
+
+function renderServices() {
+  const query = serviceSearch.value.trim().toLowerCase();
+
+  const filtered = services.filter(service => {
+    const matchesCategory = activeCategory === "All" || service.category === activeCategory;
+    const searchableText = `${service.name} ${service.category} ${service.description}`.toLowerCase();
+    return matchesCategory && searchableText.includes(query);
+  });
+
+  serviceGrid.replaceChildren(...filtered.map(service => createServiceCard(service)));
+  serviceCount.textContent = `${filtered.length} of ${services.length} services`;
+  emptyState.style.display = filtered.length ? "none" : "block";
+}
+
+serviceSearch.addEventListener("input", renderServices);
+
+filterButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    activeCategory = button.dataset.category;
+    filterButtons.forEach(item => item.classList.toggle("active", item === button));
+    renderServices();
+  });
+});
+
+function selectService(name) {
+  const service = services.find(item => item.name === name);
+  if (!service) {
+    showToast(`Service "${name}" could not be found.`);
+    return;
+  }
+  saveRecentService(name);
+  openServiceDialog(service);
+}
+
+document.querySelectorAll("[data-jump]").forEach(button => {
+  button.addEventListener("click", () => {
+    const name = button.dataset.jump;
+    const service = services.find(item => item.name.toLowerCase() === name.toLowerCase());
+
+    document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+
+    if (service) {
+      activeCategory = "All";
+      filterButtons.forEach(item => item.classList.toggle("active", item.dataset.category === "All"));
+      serviceSearch.value = "";
+      renderServices();
+      selectService(service.name);
+    } else {
+      showToast(`Opening ${name} resources`);
+    }
+  });
+});
+
+/* -------------------------------------------------------
+   RECENTLY USED SERVICES
+------------------------------------------------------- */
+
+const RECENT_KEY = "digitalCampusRecentServices";
+
+function getRecentServices() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(RECENT_KEY) || "[]");
+    return Array.isArray(saved) ? saved.filter(name => services.some(service => service.name === name)) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveRecentService(name) {
+  try {
+    const updated = [name, ...getRecentServices().filter(item => item !== name)].slice(0, 4);
+    localStorage.setItem(RECENT_KEY, JSON.stringify(updated));
+    renderRecentServices();
+  } catch {
+    // The site still works when browser storage is unavailable.
+  }
+}
+
+function renderRecentServices() {
+  const names = getRecentServices();
+  const section = document.getElementById("recentSection");
+  const grid = document.getElementById("recentGrid");
+
+  grid.replaceChildren();
+
+  if (!names.length) {
+    section.style.display = "none";
+    return;
+  }
+
+  names.forEach(name => {
+    const service = services.find(item => item.name === name);
+    if (service) grid.appendChild(createServiceCard(service, true));
+  });
+
+  section.style.display = "block";
+}
+
+renderServices();
+renderRecentServices();
+
+/* -------------------------------------------------------
+   THEME SWITCHER
+------------------------------------------------------- */
+
+const themeToggle = document.getElementById("themeToggle");
+
+function setTheme(theme) {
+  document.body.classList.toggle("light-theme", theme === "light");
+  themeToggle.textContent = theme === "light" ? "☾" : "☼";
+  themeToggle.setAttribute("aria-label", theme === "light" ? "Switch to dark theme" : "Switch to light theme");
+
+  try { localStorage.setItem("digitalCampusTheme", theme); } catch {}
+}
+
+let savedTheme = "dark";
+try { savedTheme = localStorage.getItem("digitalCampusTheme") || "dark"; } catch {}
+setTheme(savedTheme);
+
+themeToggle.addEventListener("click", () => {
+  setTheme(document.body.classList.contains("light-theme") ? "dark" : "light");
+});
+
+/* -------------------------------------------------------
+   TOASTS AND DEMO LOGIN
+------------------------------------------------------- */
+
+function showToast(message) {
+  const toast = document.getElementById("toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove("show"), 3500);
+}
+
+document.getElementById("loginButton").addEventListener("click", openLoginDialog);
+
+
+/* -------------------------------------------------------
+   FUNCTIONAL SERVICE PANELS AND DEMO FORMS
+   Personal records and authentication require a real backend.
+------------------------------------------------------- */
+const actionDialog = document.getElementById("actionDialog");
+const dialogTitle = document.getElementById("dialogTitle");
+const dialogSubtitle = document.getElementById("dialogSubtitle");
+const dialogContent = document.getElementById("dialogContent");
+const dialogClose = document.getElementById("dialogClose");
+let lastDialogTrigger = null;
+
+function openDialog(title, subtitle, contentHtml, trigger = document.activeElement) {
+  lastDialogTrigger = trigger;
+  dialogTitle.textContent = title;
+  dialogSubtitle.textContent = subtitle || "";
+  dialogContent.innerHTML = contentHtml;
+  actionDialog.classList.add("open");
+  actionDialog.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+  dialogClose.focus();
+}
+function closeDialog() {
+  actionDialog.classList.remove("open");
+  actionDialog.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+  if (lastDialogTrigger && typeof lastDialogTrigger.focus === "function") lastDialogTrigger.focus();
+}
+dialogClose.addEventListener("click", closeDialog);
+actionDialog.addEventListener("click", event => { if (event.target === actionDialog) closeDialog(); });
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && actionDialog.classList.contains("open")) closeDialog();
+});
+
+function openLoginDialog() {
+  openDialog("Student Login", "Sign-in needs your institution's official authentication system.", `
+    <form class="dialog-form" id="loginDemoForm">
+      <label>Student ID / Register Number<input name="studentId" autocomplete="username" required placeholder="Enter your student ID"></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required placeholder="Enter your password"></label>
+      <button class="btn btn-primary" type="submit">Continue ↗</button>
+    </form>
+    <div class="dialog-note">This frontend is not connected to college authentication yet. Your details will not be sent or stored, and this form cannot sign you in.</div>`);
+  document.getElementById("loginDemoForm").addEventListener("submit", event => {
+    event.preventDefault();
+    showToast("Login is not connected. Add the official college authentication API before accepting credentials.");
+  });
+}
+
+const serviceHelp = {
+  "Information": "Find general campus information, office contacts, and student support resources.",
+  "Hourly Attendance": "Hourly attendance records must be retrieved from the official student information system.",
+  "Daily Attendance": "Daily attendance should be shown here after connecting the official attendance API.",
+  "Hostel Fees": "View hostel fee breakdowns, due dates, and receipts after connecting the official fee system.",
+  "Tuition Fees": "View tuition fee details, outstanding dues, and receipts through the official fee portal.",
+  "Placement Fees": "Placement-related fee details must be confirmed by the placement office or official fee portal.",
+  "Arrear Fees": "Arrear fee amounts and payment status must come from the official examination or fee system.",
+  "Revaluation Fees": "Revaluation fee rules, deadlines, and receipts should be confirmed through the official portal.",
+  "Semester Result": "Semester results are private student records. Connect the official results API to display authenticated results.",
+  "My CAE Result": "Continuous assessment marks are private student records and require the official authenticated marks system.",
+  "LMS": "Open the institution's Learning Management System after its official URL is configured.",
+  "Learning": "Access course materials and learning resources once the official learning links are configured.",
+  "Library": "Connect the library catalogue or student library portal to search books and account information.",
+  "Achievements": "Use this area to review verified achievements or submit achievement details when a backend is available.",
+  "Additional Skill Sets": "Browse approved skill courses and training resources when the institution's catalogue is connected.",
+  "Feedback and Suggestion": "Send a suggestion for the campus portal team using the form below.",
+  "Feedback": "Share feedback about student services using the form below.",
+  "My Grievance": "Submit a grievance for review. Do not include passwords or highly sensitive personal information.",
+  "Time Table": "Class timetable data should be loaded from the official department or academic schedule.",
+  "Transport": "Transport routes, timings, and fees should be verified against the official transport office information.",
+  "Internship Certificate": "Certificate status and downloads require a connection to the official student records system.",
+  "Survey": "Submit your response to a campus survey using the form below.",
+  "Download Hall Ticket": "Hall tickets are official examination documents. Connect the authorized portal before enabling downloads.",
+  "Mess Menu": "Show the current mess menu after verified menu data is added by the campus team.",
+  "Event Calendar": "Show verified event dates and registration links when the official campus calendar is connected.",
+  "CBCS": "View curriculum structure and credit-system information from the approved academic regulations.",
+  "Elective": "Elective options and selection status should be loaded from the official academic system.",
+  "Syllabus": "Browse the approved syllabus by programme, semester, and subject when the syllabus data is connected.",
+  "Course Completion Certificate": "Certificate eligibility and downloads require verified course-completion records.",
+  "Seating Arrangement ESE Examination": "Exam seating details should be retrieved from the official examination department."
+};
+
+function openServiceDialog(service) {
+  const formServices = ["Feedback and Suggestion", "Feedback", "My Grievance", "Survey"];
+  const formMarkup = formServices.includes(service.name) ? `
+    <form class="dialog-form" id="serviceActionForm">
+      <label>${service.name === "Survey" ? "Your response" : "Subject"}<input name="subject" required placeholder="${service.name === "Survey" ? "Enter your response title" : "Briefly describe your request"}"></label>
+      <label>${service.name === "Survey" ? "Comments (optional)" : "Message"}<textarea name="message" ${service.name === "Survey" ? "" : "required"} placeholder="Write your message here"></textarea></label>
+      <button class="btn btn-primary" type="submit">Submit ${service.name === "Survey" ? "Response" : "Form"}</button>
+    </form>
+    <div class="dialog-note">Demo form only: this submission is not sent to the college. A secure backend is needed to deliver and track it.</div>` : `
+    <div class="dialog-copy">${serviceHelp[service.name] || service.description}</div>
+    <div class="dialog-note"><strong>Connection status:</strong> This service panel is working, but official student records, documents, payments, and external portal links have not been connected yet.</div>
+    <div class="dialog-actions">
+      <button class="btn btn-primary" type="button" id="askServiceAI">Ask AI about this ↗</button>
+      <button class="btn btn-secondary" type="button" id="closeServiceDialog">Close</button>
+    </div>`;
+  openDialog(service.icon + " " + service.name, service.category + " · Student Service", formMarkup);
+  const askAI = document.getElementById("askServiceAI");
+  if (askAI) askAI.addEventListener("click", () => {
+    closeDialog();
+    toggleChat(true);
+    chatInput.value = `Please help me with ${service.name}.`;
+    chatInput.focus();
+  });
+  const closeService = document.getElementById("closeServiceDialog");
+  if (closeService) closeService.addEventListener("click", closeDialog);
+  const form = document.getElementById("serviceActionForm");
+  if (form) form.addEventListener("submit", event => {
+    event.preventDefault();
+    showToast("Demo form validated. Connect a backend to send and save this submission.");
+    closeDialog();
+  });
+}
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+/* -------------------------------------------------------
+   SCROLL TO TOP
+------------------------------------------------------- */
+
+const backTop = document.getElementById("backTop");
+
+window.addEventListener("scroll", () => {
+  backTop.classList.toggle("visible", window.scrollY > 500);
+}, { passive: true });
+
+backTop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+/* -------------------------------------------------------
+   REVEAL ANIMATIONS
+------------------------------------------------------- */
+
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll(".reveal").forEach(element => observer.observe(element));
+} else {
+  document.querySelectorAll(".reveal").forEach(element => element.classList.add("visible"));
+}
+
+/* -------------------------------------------------------
+   AI CHATBOT
+   Preserves the existing Flask POST /ask endpoint.
+------------------------------------------------------- */
+
+const chatBox = document.getElementById("chatBox");
+const chatMessages = document.getElementById("chatMessages");
+const chatInput = document.getElementById("chatInput");
+const chatForm = document.getElementById("chatForm");
+const sendButton = document.getElementById("sendButton");
+const chatStatus = document.getElementById("chatStatus");
+const chatSuggestions = document.getElementById("chatSuggestions");
+
+let sessionId;
+
+try {
+  sessionId = sessionStorage.getItem("chatSessionId");
+  if (!sessionId) {
+    sessionId = (window.crypto && crypto.randomUUID)
+      ? crypto.randomUUID()
+      : `session-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    sessionStorage.setItem("chatSessionId", sessionId);
+  }
+} catch {
+  sessionId = `session-${Date.now()}`;
+}
+
+function toggleChat(forceOpen) {
+  const shouldOpen = typeof forceOpen === "boolean"
+    ? forceOpen
+    : !chatBox.classList.contains("active");
+
+  chatBox.classList.toggle("active", shouldOpen);
+  chatBox.setAttribute("aria-hidden", String(!shouldOpen));
+  document.getElementById("aiButton").setAttribute("aria-label", shouldOpen ? "Close AI Assistant" : "Open AI Assistant");
+
+  if (shouldOpen) {
+    setTimeout(() => chatInput.focus(), 80);
+  }
+}
+
+function addMessage(text, type) {
+  const message = document.createElement("div");
+  message.className = `message ${type}`;
+  // Use textContent to display answers safely as text.
+  message.textContent = String(text ?? "");
+  chatMessages.appendChild(message);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+  return message;
+}
+
+function setChatBusy(busy) {
+  sendButton.disabled = busy;
+  chatInput.disabled = busy;
+  sendButton.style.opacity = busy ? ".65" : "1";
+  chatStatus.textContent = busy ? "Thinking..." : "Ask about campus information";
+}
+
+chatForm.addEventListener("submit", async event => {
+  event.preventDefault();
+  await sendMessage();
+});
+
+async function sendMessage(presetQuestion) {
+  if (sendButton.disabled) return;
+
+  const message = (typeof presetQuestion === "string" ? presetQuestion : chatInput.value).trim();
+  if (!message) return;
+
+  addMessage(message, "user-message");
+  chatInput.value = "";
+  chatSuggestions.style.display = "none";
+
+  const loading = addMessage("Thinking…", "bot-message");
+  loading.id = "ai-loading";
+  setChatBusy(true);
+
+  try {
+    const response = await fetch("http://127.0.0.1:5001/ask", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        question: message,
+        session_id: sessionId
+      })
+    });
+
+    const data = await response.json().catch(() => ({}));
+    loading.remove();
+
+    if (!response.ok) {
+      addMessage(data.error || "Sorry, the request could not be completed. Please try again.", "bot-message");
+    } else {
+      addMessage(data.answer || "I received an empty answer. Please try asking another question.", "bot-message");
+    }
+  } catch (error) {
+    console.error("AI API Error:", error);
+    loading.remove();
+
+    const errorMessage = addMessage(
+      "Unable to connect to the AI Assistant. Please check that your Flask backend is running at http://127.0.0.1:5001 and that the /ask endpoint is available.",
+      "bot-message"
+    );
+    errorMessage.classList.add("chat-error");
+  } finally {
+    setChatBusy(false);
+    chatSuggestions.style.display = "flex";
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+    chatInput.focus();
+  }
+}
+
+document.querySelectorAll(".suggestion-chip").forEach(button => {
+  button.addEventListener("click", () => sendMessage(button.dataset.question));
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && chatBox.classList.contains("active")) {
+    toggleChat(false);
+  }
+});
+</script>
+</body>
+</html>
